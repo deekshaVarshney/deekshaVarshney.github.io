@@ -4,10 +4,7 @@ title: About
 permalink: /
 subtitle: "<a href='#'>School of AI and Data Science</a>. IIT Jodhpur. deeksha@iitj.ac.in. AI for Sustainable Impact."
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+ 
   # more_info: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>
