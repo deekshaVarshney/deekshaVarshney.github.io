@@ -94,13 +94,18 @@
     }
   ],
   "teaching": [
-    {
-      "institution": "IIT Jodhpur",
-      "role": "Instructor",
-      "year": "2025",
-      "summary": "Teaching an advanced course on Artificial Intelligence (AI) and Natural Language Processing (NLP) at IIT Jodhpur. Covered topics including Machine Learning, Deep Learning, Transformer models, NLP pipelines, and hands-on projects. Supervised student projects and guided research-oriented exercises in AI and NLP."
-    }
-  ],
+  {
+    "institution": "IIT Jodhpur, India",
+    "role": "Instructor",
+    "year": "2025",
+    "courses": [
+      "CSL7610 – Artificial Intelligence (Ph.D. & M.Tech Programme, July 2025 – December 2025)",
+      "AIL7390 – Deep Learning for Natural Language Processing (Ph.D., M.Tech & B.Tech Programme)",
+      "AIL7260 – Foundations of Vision and Language (M.Tech, Ph.D. & B.Tech Programme)",
+      "Machine Learning I – B.S./B.Sc. in Applied AI and Data Science (Online Programme)"
+    ]
+  }
+]
   "references": [
     {
       "name": "Dr. Asif Ekbal",
