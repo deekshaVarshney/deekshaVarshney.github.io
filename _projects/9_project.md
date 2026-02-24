@@ -5,6 +5,7 @@ description: another project with an image 🎉
 img: assets/img/6.jpg
 importance: 0
 category: fun
+published: false
 ---
 
 Every project has a beautiful feature showcase page.
