@@ -24,6 +24,7 @@
       }
     ]
   },
+
   "work": [
     {
       "name": "IIT Jodhpur",
@@ -47,6 +48,7 @@
       "summary": "Research on uncertainty estimation in Large Language Models under Prof. Yang You."
     }
   ],
+
   "education": [
     {
       "institution": "Indian Institute of Technology Patna",
@@ -93,19 +95,21 @@
       "score": "85.1%"
     }
   ],
+
   "teaching": [
-  {
-    "institution": "IIT Jodhpur, India",
-    "role": "Instructor",
-    "year": "2025",
-    "courses": [
-      "CSL7610 – Artificial Intelligence (Ph.D. & M.Tech Programme, July 2025 – December 2025)",
-      "AIL7390 – Deep Learning for Natural Language Processing (Ph.D., M.Tech & B.Tech Programme)",
-      "AIL7260 – Foundations of Vision and Language (M.Tech, Ph.D. & B.Tech Programme)",
-      "Machine Learning I – B.S./B.Sc. in Applied AI and Data Science (Online Programme)"
-    ]
-  }
-]
+    {
+      "institution": "IIT Jodhpur, India",
+      "role": "Instructor",
+      "year": "2025",
+      "courses": [
+        "CSL7610 – Artificial Intelligence (Ph.D. & M.Tech Programme, July 2025 – December 2025)",
+        "AIL7390 – Deep Learning for Natural Language Processing (Ph.D., M.Tech & B.Tech Programme)",
+        "AIL7260 – Foundations of Vision and Language (M.Tech, Ph.D. & B.Tech Programme)",
+        "Machine Learning I – B.S./B.Sc. in Applied AI and Data Science (Online Programme)"
+      ]
+    }
+  ],
+
   "references": [
     {
       "name": "Dr. Asif Ekbal",
@@ -116,6 +120,7 @@
       "reference": "Professor, Department of Computer Science, Banaras Hindu University, India; Senior Adviser to Government of India in the area of Science & Technology at NITI Aayog, NITI Bhawan, Sansad Marg, New Delhi-110001, India; Former Professor of Computer Science, University of Delhi, India."
     }
   ],
+
   "volunteer": [
     {
       "organization": "PACLIC 35",
@@ -127,7 +132,7 @@
       "organization": "GIAN Workshop",
       "position": "Tutorial Presenter",
       "date": "2022",
-      "summary": "Tutorial on Conversational AI and Knowledge-enhanced Response Generation in Dialogue Systems: Current Advancements and Emerging Horizons."
+      "summary": "Tutorial on Conversational AI and Knowledge-enhanced Response Generation in Dialogue Systems."
     },
     {
       "organization": "GIAN Workshop",
@@ -139,25 +144,25 @@
       "organization": "IIT Patna",
       "position": "Volunteer",
       "date": "2019",
-      "summary": "Volunteer for GIAN Workshop on Introduction to Unsupervised Data Mining: From Batch to Stream Mining Algorithms."
+      "summary": "Volunteer for GIAN Workshop on Introduction to Unsupervised Data Mining."
     },
     {
       "organization": "IIT Patna",
       "position": "Reviewer",
       "date": "2018-2021",
-      "summary": "Reviewer for ACL, ACL-SRW, Expert Systems and Applications, TALLIP, ICON, ICONIP, TCBB, PLOS One, and Neural Networks (Elsevier)."
+      "summary": "Reviewer for ACL, ACL-SRW, Expert Systems and Applications, TALLIP, ICON, ICONIP, TCBB, PLOS One, and Neural Networks."
     },
     {
       "organization": "Research Events",
       "position": "Attendee",
       "date": "2021, 2023",
-      "summary": "Attendee at Google Research Week, Amazon Research Week, and ACM India Grad Cohort, Bangalore."
+      "summary": "Attendee at Google Research Week, Amazon Research Week, and ACM India Grad Cohort."
     },
     {
       "organization": "IIT Patna",
       "position": "DAPC Student Representative",
       "date": "2022-2023",
-      "summary": "Student representative for the Departmental Academic Program Committee, Department of Computer Science and Engineering."
+      "summary": "Student representative for the Departmental Academic Program Committee."
     },
     {
       "organization": "ICONIP / IJCNLP-AACL",
