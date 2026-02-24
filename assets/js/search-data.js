@@ -452,11 +452,6 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-ai-safety",
-          title: 'AI safety',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
             },},{id: "projects-interpretability",
           title: '⁠Interpretability',
           description: "a project that redirects to another website",
