@@ -9,12 +9,13 @@ nav_order: 7
 
 ## Generative AI Workshop – IIT Jodhpur
 
-<div>
+<div class="text-center mt-4">
   <img src="/assets/img/generative_ai_workshop_iitj.jpeg" 
        alt="Generative AI Workshop IIT Jodhpur"
-       style="max-width:80%; border-radius:10px; margin-bottom:10px;">
+        class="img-fluid rounded"
+       style="max-width:900px;">
 </div>
 
-<p>
+<p class="text-center mt-3">
 Delivered a tutorial on Generative AI for NLP at the Generative AI Workshop conducted at IIT Jodhpur.
 </p>
