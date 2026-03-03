@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Gallery
 permalink: /gallery/
+title: Gallery
 nav: true
 nav_order: 8
 ---
