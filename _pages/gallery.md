@@ -4,7 +4,7 @@ layout: page
 title: Gallery
 permalink: /gallery/
 nav: true
-nav_order: 7
+nav_order: 8
 ---
 
 ## Generative AI Workshop – IIT Jodhpur
