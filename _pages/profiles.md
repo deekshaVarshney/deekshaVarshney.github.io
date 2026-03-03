@@ -5,49 +5,114 @@ title: People
 nav: true
 nav_order: 7
 ---
+<style>
+  summary {
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 15px 0;
+  list-style: none;
+}
 
-## Current Students at IIT Jodhpur
+summary::-webkit-details-marker {
+  display: none;
+}
+</style>
 
-<img src="/assets/img/saikat.jpg" alt="Saikat Mondal" style="width: 150px; height: 150px; border-radius: 8px; margin-bottom: 1rem;">
+<details>
+ <summary>PhD</summary>
+  <details>
+  <summary><strong>Previous Students</strong></summary>
+  <img src="/assets/img/saikat.jpg" alt="Saikat Mondal" style="width:150px; height:150px; border-radius:8px; margin-bottom:1rem;">
+<p><em>Saikat Mondal</em>, PhD student in AI Safety (3rd semester), with a Master's degree from Banaras Hindu University.</p>
+  </details>
+ </details>  
+ 
+<details>
+ <summary>M.Tech</summary>
+ <details>
+ <summary><strong>Previous Students</strong></summary>
 
-*Saikat Mondal*, PhD student in AI Safety (3rd semester), with a Master's degree from Banaras Hindu University.
+<ul>
+<li><em>Rounak Sen</em> (AR/VR)</li>
+<li><em>Sikkireddy Lakshmi Shanmukha</em> (AR/VR)</li>
+<li><em>Rohan Karna</em>(DCS)</li>
+<li><em>Sharad Kumar Singh</em>(DCS)</li>
+<li><em>Gautam Kumar Kushwaha</em>(AI)</li>
+<li><em>Akash Banik</em></li>
+<li><em>Deepak Kumar</em></li>
+<li><em>Krothinyi Medeo</em> (MSc-M.Tech)</li>
+</ul>
 
----
+</details>
+</details>
 
-- *Avni Singh*, IIT Jodhpur, India (MS by Research)
-- *Rounak Sen*, IIT Jodhpur, India (M.Tech – AR/VR)
-- *Sikkireddy Lakshmi Shanmukha*, IIT Jodhpur, India (M.Tech – AR/VR)
-- *Rohan Karna*, IIT Jodhpur, India (M.Tech – DCS)
-- *Sharad Kumar Singh*, IIT Jodhpur, India (M.Tech – DCS)
-- *Gautam Kumar Kushwaha*, IIT Jodhpur, India (M.Tech – AI)
-- *Veekshan*, IIT Jodhpur, India (M.Tech – Executive)
-- *Kashmeera*, IIT Jodhpur, India (M.Tech – Executive)
-- *Shumbham*, IIT Jodhpur, India (M.Tech – Executive)
-- *Anshul*, IIT Jodhpur, India (M.Tech – Executive)
-- *Neha*, IIT Jodhpur, India (M.Tech – Executive)
-- *Netaji*, IIT Jodhpur, India (M.Tech – Executive)
-- *Nitin Jain*, IIT Jodhpur, India (M.Tech – Executive)
-- *Akash Banik*, IIT Jodhpur, India (M.Tech)
-- *Deepak Kumar*, IIT Jodhpur, India (M.Tech)
-- *Krothinyi Medeo*, IIT Jodhpur, India (MSc-M.Tech)
-- *Kolapkar Vipul Kishor*, IIT Jodhpur, India (B.Tech – DC)
-- *Kartik Jain*, IIT Jodhpur, India (B.Tech – DC)
-- *Iftikhar*, IIT Jodhpur, India (B.Tech – DC)
-- *Mukkera*, IIT Jodhpur, India (B.Tech – DC)
-- *Rutuja*, IIT Jodhpur, India (B.Tech – DC)
-- *Rishabh*, IIT Jodhpur, India (B.Tech – DC)
-- *Suvarn*, IIT Jodhpur, India (B.Tech – DC)
-- *Sai Manav*, IIT Jodhpur, India (B.Tech – DC)
-- *Shreehitha Talari*, IIT Jodhpur, India (B.Tech – DC)
-- *Lagudu Pooja Rani*, IIT Jodhpur, India (B.Tech – DC)
-- *Jangili Mahalaxmi*, IIT Jodhpur, India (B.Tech – DC)
-- *Nallaiahgari Deadeepya*, IIT Jodhpur, India (B.Tech – DC)
-- *B Bharadhwaj Naik*, IIT Jodhpur, India (B.Tech – DC)
-- *D Ashish Rathnam*, IIT Jodhpur, India (B.Tech – DC)
-- *Pundru Nehith Reddy*, IIT Jodhpur, India (B.Tech – DC)
-- *Priyansu Narendra Rajput*, IIT Jodhpur, India 
-- *Vaniya Ankit Sureshbhai*, IIT Jodhpur, India
+<details>
+<summary>M.Tech Executive</summary>
+<details>
+  
+<summary><strong>Previous Students</strong></summary>
 
-## Mentored Students  
-- *Mihir Panchal*, IIT Jodhpur, India
-- *Prajeet Katari*, IIT Jodhpur, India
+
+<ul>
+<li><em>Veekshan</em></li>
+<li><em>Kashmeera</em></li>
+<li><em>Shumbham</em></li>
+<li><em>Anshul</em></li>
+<li><em>Neha</em></li>
+<li><em>Netaji</em></li>
+<li><em>Nitin Jain</em></li>
+</ul>
+
+</details>
+</details>
+
+<details>
+<summary>B.Tech – DC</summary>
+
+
+<details>
+<summary><strong>Current Students</strong></summary>
+
+
+<ul>
+<li><em>Kolapkar Vipul Kishor</em></li>
+<li><em>Kartik Jain</em></li>
+<li><em>Shreehitha Talari</em></li>
+<li><em>Lagudu Pooja Rani</em></li>
+<li><em>Jangili Mahalaxmi</em></li>
+<li><em>Nallaiahgari Deadeepya</em></li>
+<li><em>B Bharadhwaj Naik</em></li>
+<li><em>D Ashish Rathnam</em></li>
+<li><em>Pundru Nehith Reddy</em></li>
+</ul>
+
+</details>
+
+
+<details>
+<summary><strong>Previous Students</strong></summary>
+
+
+<ul>
+<li><em>Iftikhar</em></li>
+<li><em>Mukkera</em></li>
+<li><em>Rutuja</em></li>
+<li><em>Rishabh</em></li>
+<li><em>Suvarn</em></li>
+<li><em>Sai Manav</em></li>
+</ul>
+
+</details>
+</details>
+
+<details>
+<summary>Mentored Students</summary>
+<details>
+   <summary><strong>Previous Students</strong></summary>
+<ul>
+<li><em>Mihir Panchal</em></li>
+<li><em>Prajeet Katari</em></li>
+</ul>
+</details>
+</details>
