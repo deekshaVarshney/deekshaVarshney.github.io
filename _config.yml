@@ -135,6 +135,8 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  pages:
+    output: true
   books:
     output: false
   news:
