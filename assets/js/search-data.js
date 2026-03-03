@@ -447,7 +447,67 @@ ninja.data = [{
           section: "News",},{id: "news-joined-as-assistant-professor-at-the-school-of-artificial-intelligence-and-data-science-saide-indian-institute-of-technology-jodhpur-iit-jodhpur-rajasthan-india",
           title: 'Joined as Assistant Professor at the School of Artificial Intelligence and Data Science...',
           description: "",
-          section: "News",},{id: "projects-medical-reasoning",
+          section: "News",},{id: "pages-page-not-found",
+          title: 'Page not found',
+          description: "Looks like there has been a mistake. Nothing exists here.",
+          section: "Pages",handler: () => {
+              window.location.href = "/404.html";
+            },},{id: "pages-about",
+          title: 'About',
+          description: "",
+          section: "Pages",handler: () => {
+              window.location.href = "/";
+            },},{id: "pages-bookshelf",
+          title: 'bookshelf',
+          description: "",
+          section: "Pages",handler: () => {
+              window.location.href = "/books/";
+            },},{id: "pages-cv",
+          title: 'CV',
+          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          section: "Pages",handler: () => {
+              window.location.href = "/cv/";
+            },},{id: "pages-gallery",
+          title: 'Gallery',
+          description: "",
+          section: "Pages",handler: () => {
+              window.location.href = "/gallery/";
+            },},{id: "pages-news",
+          title: 'news',
+          description: "",
+          section: "Pages",handler: () => {
+              window.location.href = "/news/";
+            },},{id: "pages-people",
+          title: 'People',
+          description: "",
+          section: "Pages",handler: () => {
+              window.location.href = "/people/";
+            },},{id: "pages-projects",
+          title: 'Projects',
+          description: "A growing collection of your cool projects.",
+          section: "Pages",handler: () => {
+              window.location.href = "/projects/";
+            },},{id: "pages-publications",
+          title: 'Publications',
+          description: "",
+          section: "Pages",handler: () => {
+              window.location.href = "/publications/";
+            },},{id: "pages-repositories",
+          title: 'repositories',
+          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          section: "Pages",handler: () => {
+              window.location.href = "/repositories/";
+            },},{id: "pages-research-lab",
+          title: 'Research lab',
+          description: "",
+          section: "Pages",handler: () => {
+              window.location.href = "/research%20lab/";
+            },},{id: "pages-teaching",
+          title: 'Teaching',
+          description: "",
+          section: "Pages",handler: () => {
+              window.location.href = "/Teaching/";
+            },},{id: "projects-medical-reasoning",
           title: 'Medical Reasoning',
           description: "with background image",
           section: "Projects",handler: () => {
