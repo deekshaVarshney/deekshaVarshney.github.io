@@ -8,11 +8,10 @@ nav_order: 8
 
 ## Generative AI Workshop – IIT Jodhpur
 
-<div class="text-center mt-4">
+<div>
   <img src="/assets/img/generative_ai_workshop_iitj.jpeg" 
        alt="Generative AI Workshop IIT Jodhpur"
-        class="img-fluid rounded"
-       style="max-width:500px;">
+       style="max-width:600px;">
 </div>
 
 <p>
