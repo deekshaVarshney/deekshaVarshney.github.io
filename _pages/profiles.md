@@ -9,9 +9,9 @@ nav_order: 7
 <style>
 summary {
   cursor: pointer;
-  font-size: 1.6rem;
-  font-weight: 600;
-  margin: 15px 0;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 10px 0;
   list-style: none;
 }
 
@@ -21,7 +21,7 @@ summary::-webkit-details-marker {
 
 /* Indentation for sub-sections */
 details details {
-  margin-left: 25px;
+  margin-left: 20px;
 }
 </style>
 
@@ -29,10 +29,10 @@ details details {
 <!-- ===================== PhD ===================== -->
 <details>
   <summary>PhD</summary>
-  <p><strong>Indian Institute of Technology Jodhpur, India</strong></p>
+  <p><em>Indian Institute of Technology Jodhpur, India</em></p>
 
   <details>
-    <summary>Previous Students</summary>
+    <summary>Current Students</summary>
     <img src="/assets/img/saikat.jpg" alt="Saikat Mondal"
          style="width:150px; height:150px; border-radius:8px; margin-bottom:1rem;">
     <p>
@@ -47,10 +47,10 @@ details details {
 <!-- ===================== M.Tech ===================== -->
 <details>
   <summary>M.Tech</summary>
-  <p><strong>Indian Institute of Technology Jodhpur, India</strong></p>
+  <p><em>Indian Institute of Technology Jodhpur, India</em></p>
 
   <details>
-    <summary>Previous Students</summary>
+    <summary>Current Students</summary>
     <ul>
       <li><em>Rounak Sen</em> (AR/VR)</li>
       <li><em>Sikkireddy Lakshmi Shanmukha</em> (AR/VR)</li>
@@ -58,6 +58,7 @@ details details {
       <li><em>Sharad Kumar Singh</em> (DCS)</li>
       <li><em>Gautam Kumar Kushwaha</em> (AI)</li>
       <li><em>Akash Banik</em></li>
+      <li><em>Avni Singh</em></li>
       <li><em>Deepak Kumar</em></li>
       <li><em>Krothinyi Medeo</em> (MSc-M.Tech)</li>
     </ul>
@@ -72,7 +73,7 @@ details details {
   <p><strong>Indian Institute of Technology Jodhpur, India</strong></p>
 
   <details>
-    <summary>Previous Students</summary>
+    <summary>Current Students</summary>
     <ul>
       <li><em>Veekshan</em></li>
       <li><em>Kashmeera</em></li>
@@ -90,7 +91,7 @@ details details {
 <!-- ===================== B.Tech – DC ===================== -->
 <details>
   <summary>B.Tech – DC</summary>
-  <p><strong>Indian Institute of Technology Jodhpur, India</strong></p>
+  <p><em>Indian Institute of Technology Jodhpur, India</em></p>
 
   <details>
     <summary>Current Students</summary>
@@ -116,6 +117,8 @@ details details {
       <li><em>Rishabh</em></li>
       <li><em>Suvarn</em></li>
       <li><em>Sai Manav</em></li>
+      <li><em>Priyansu Narendra Rajput</em></li>
+      <li><em>Vaniya Ankit Sureshbhai</em></li>
     </ul>
   </details>
 </details>
