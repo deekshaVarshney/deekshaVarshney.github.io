@@ -24,7 +24,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an Assistant Professor at the School of Artificial Intelligence and Data Science (SAIDE), Indian Institute of Technology Jodhpur (IIT Jodhpur), Rajasthan, India. I am also affiliated with the Department of Computer Science and Engineering at IIT Jodhpur and lead the Adhri NLP Lab, where we work on cutting-edge problems in Natural Language Processing and AI for Social Good.
+I am an <b>Assistant Professor</b> at the 
+<span style="color:#2e7d32;"><b>School of Artificial Intelligence and Data Science (SAIDE)</b></span>, 
+<span style="color:#2e7d32;"><b>Indian Institute of Technology Jodhpur (IIT Jodhpur)</b></span>, Rajasthan, India. 
+I am also affiliated with the Department of Computer Science and Engineering at IIT Jodhpur and lead the 
+<span style="color:#2e7d32;"><b>Adhri NLP Lab</b></span>, where we work on cutting-edge problems in 
+<b>Natural Language Processing</b> and <b>AI for Social Good</b>.
 
 Prior to joining IIT Jodhpur, I worked as a Research Fellow at the National University of Singapore (NUS) under Prof. Gianmarco Mengaldo, with co-supervision from Prof. Erik Cambria (Nanyang Technological University), focusing on entity hallucination in dialogue systems, interpretability, climate AI, and sustainable finance. I also served as a Research Fellow at NUS with Prof. Yang You, where my research focused on uncertainty estimation in Large Language Models (LLMs).
 
