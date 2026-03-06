@@ -32,11 +32,19 @@ Natural Language Processing and AI for Social Good.I earned my Ph.D. from Indian
 
 Prior to joining IIT Jodhpur, I worked as a <span style="color:#2e7d32;"><b>Research Fellow at the National University of Singapore (NUS)</b></span> under <a href="#" style="color:#1a73e8;">Prof. Gianmarco Mengaldo</a>, focusing on Climate NLP and Sustainable Finance.
 
-My primary research interests lie in Natural Language Processing (NLP) with emphasis on <i>Trustworthy AI, Reasoning and Interpretability and building SLMs, Multilingual Language Models.</i> 
+My primary research interests lie in Natural Language Processing (NLP) with emphasis on <i>Trustworthy AI, Reasoning and Interpretability and building SLMs, Multilingual Language Models.</i><br>
 I am majorly focusing on problems in Indian Scenario like multilinguality, waste management through technology.
 
 My recent work also extends to NLP for Healthcare, Climate AI, and Sustainable Finance.
 
 Through the Adhri NLP Lab at IIT Jodhpur, my group actively works on building robust, interpretable, and socially impactful AI systems across multilingual and multi-domain settings.
 
-<span style="color:red; font-weight:bold;">I am actively looking for motivated students interested in joining my group as Interns, and Ph.D. scholars at IIT Jodhpur. Please feel free to email me, with a statement of purpose.</span>
+<p style="color:red; font-weight:600;">I am actively looking for motivated students interested in joining my group as Interns, and Ph.D. scholars at IIT Jodhpur. Please feel free to <a href="mailto:deeksha@iitj.ac.in">email</a> me, with a statement of purpose.</p>
+
+<b>Research Lab</b><br>
+<b>Mechanistic Interpretability.</b><br>
+<b>Adhri lab page generate an AI image.</b><br>
+<b>Guess it is AI or not.</b><br>
+<b>That is the power of AI.</b><br>
+<b>Let us use it for impact.</b><br>
+<b>I am keeping transparent all ideas so that if someone else gets better idea than this they should also do.</b>
