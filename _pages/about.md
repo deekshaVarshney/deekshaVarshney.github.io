@@ -30,7 +30,7 @@ I am an <i>Assistant Professor</i> at the
 I lead the <span style="color:#2e7d32;"><b>Adhri(AI for Development on Human Reasoning and Impact) NLP Lab</b></span>, where we work on cutting-edge problems in 
 Natural Language Processing and AI for Social Good.I earned my Ph.D. from Indian Institute of Technology Patna, India in 2023. I am grateful to have <a href="#" style="color:#1a73e8;"><b>Prof. Asif Ekbal</b></a> as my Ph.D. supervisor. My doctoral research focused on Enhancing Dialogue Generation Models using Multi-source Heterogeneous Information.
 
-Prior to joining IIT Jodhpur, I worked as a Research Fellow at the National University of Singapore (NUS) under Prof. Gianmarco Mengaldo, with co-supervision from Prof. Erik Cambria (Nanyang Technological University), focusing on entity hallucination in dialogue systems, interpretability, climate AI, and sustainable finance. I also served as a Research Fellow at NUS with Prof. Yang You, where my research focused on uncertainty estimation in Large Language Models (LLMs).
+Prior to joining IIT Jodhpur, I worked as a <span style="color:#2e7d32;"><b>Research Fellow at the National University of Singapore (NUS)</b></span> under <a href="#" style="color:#1a73e8;">Prof. Gianmarco Mengaldo</a>, focusing on Climate NLP and Sustainable Finance.
 
 I earned my Ph.D. in Computer Science and Engineering from the Indian Institute of Technology Patna, India. My doctoral research focused on enhancing dialogue generation models using multi-source heterogeneous information. I completed my Master’s and Bachelor’s degrees in Computer Science from Banaras Hindu University, Varanasi.
 
