@@ -35,8 +35,8 @@ Prior to joining IIT Jodhpur, I worked as a <span style="color:#2e7d32;"><b>Rese
 My primary research interests lie in Natural Language Processing (NLP) with emphasis on <i>Trustworthy AI, Reasoning and Interpretability and building SLMs, Multilingual Language Models.</i> 
 I am majorly focusing on problems in Indian Scenario like multilinguality, waste management through technology.
 
-My primary research interests lie in Natural Language Processing (NLP) with emphasis on Dialogue Systems, Reasoning and Interpretability in LLMs and SLMs, Multilingual Language Models, and Trustworthy AI. I am particularly interested in addressing challenges such as hallucination, uncertainty estimation, and explainability in neural language models. My recent work also extends to NLP for Healthcare, Climate AI, and Sustainable Finance.
+My recent work also extends to NLP for Healthcare, Climate AI, and Sustainable Finance.
 
 Through the Adhri NLP Lab at IIT Jodhpur, my group actively works on building robust, interpretable, and socially impactful AI systems across multilingual and multi-domain settings.
 
-I am actively looking for motivated students interested in joining my group as Interns, MS (by Research), and Ph.D. scholars in the broad areas of NLP, Dialogue Systems, Large Language Models, and AI for Social Good at IIT Jodhpur.
+<span style="color:red; font-weight:bold;">I am actively looking for motivated students interested in joining my group as Interns, and Ph.D. scholars at IIT Jodhpur. Please feel free to email me, with a statement of purpose.</span>
