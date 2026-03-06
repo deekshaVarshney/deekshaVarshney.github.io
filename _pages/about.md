@@ -32,7 +32,8 @@ Natural Language Processing and AI for Social Good.I earned my Ph.D. from Indian
 
 Prior to joining IIT Jodhpur, I worked as a <span style="color:#2e7d32;"><b>Research Fellow at the National University of Singapore (NUS)</b></span> under <a href="#" style="color:#1a73e8;">Prof. Gianmarco Mengaldo</a>, focusing on Climate NLP and Sustainable Finance.
 
-I earned my Ph.D. in Computer Science and Engineering from the Indian Institute of Technology Patna, India. My doctoral research focused on enhancing dialogue generation models using multi-source heterogeneous information. I completed my Master’s and Bachelor’s degrees in Computer Science from Banaras Hindu University, Varanasi.
+My primary research interests lie in Natural Language Processing (NLP) with emphasis on <i>Trustworthy AI, Reasoning and Interpretability and building SLMs, Multilingual Language Models.</i> 
+I am majorly focusing on problems in Indian Scenario like multilinguality, waste management through technology.
 
 My primary research interests lie in Natural Language Processing (NLP) with emphasis on Dialogue Systems, Reasoning and Interpretability in LLMs and SLMs, Multilingual Language Models, and Trustworthy AI. I am particularly interested in addressing challenges such as hallucination, uncertainty estimation, and explainability in neural language models. My recent work also extends to NLP for Healthcare, Climate AI, and Sustainable Finance.
 
