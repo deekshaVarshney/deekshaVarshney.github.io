@@ -39,12 +39,15 @@ My recent work also extends to NLP for Healthcare, Climate AI, and Sustainable F
 
 Through the Adhri NLP Lab at IIT Jodhpur, my group actively works on building robust, interpretable, and socially impactful AI systems across multilingual and multi-domain settings.
 
-<p style="color:red; font-weight:600;">I am actively looking for motivated students interested in joining my group as Interns, and Ph.D. scholars at IIT Jodhpur. Please feel free to <a href="mailto:deeksha@iitj.ac.in">email</a> me, with a statement of purpose.</p>
+<p style="color:red; font-weight:600;">I am actively looking for motivated students interested in joining my group as Interns, and Ph.D. scholars at IIT Jodhpur. Please feel free to <a href="mailto:deeksha@iitj.ac.in" style="color:#1a73e8;">email</a> me, with a statement of purpose.</p>
 
-<b>Research Lab</b><br>
-<b>Mechanistic Interpretability.</b><br>
-<b>Adhri lab page generate an AI image.</b><br>
-<b>Guess it is AI or not.</b><br>
-<b>That is the power of AI.</b><br>
-<b>Let us use it for impact.</b><br>
-<b>I am keeping transparent all ideas so that if someone else gets better idea than this they should also do.</b>
+
+<p style="color:#000000; font-weight:700;">
+Research Lab <br>
+Mechanistic Interpretability. <br>
+Adhri lab page generate an AI image <br>
+Guess it is AI or not <br>
+That is the power of AI <br>
+Let us use it for impact <br>
+I am keeping transparent all ideas so that if someone else gets better idea than this they should also do
+</p>
