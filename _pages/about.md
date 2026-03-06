@@ -28,9 +28,9 @@ I am an <i>Assistant Professor</i> at the
 <span style="color:#2e7d32;"><b>School of Artificial Intelligence and Data Science (SAIDE)</b></span>, 
 <span style="color:#2e7d32;"><b>Indian Institute of Technology Jodhpur (IIT Jodhpur)</b></span>, Rajasthan, India. 
 I lead the <span style="color:#2e7d32;"><b>Adhri(AI for Development on Human Reasoning and Impact) NLP Lab</b></span>, where we work on cutting-edge problems in 
-Natural Language Processing and AI for Social Good.I earned my Ph.D. from Indian Institute of Technology Patna, India in 2023. I am grateful to have <a href="#" style="color:#1a73e8;"><b>Prof. Asif Ekbal</b></a> as my Ph.D. supervisor. My doctoral research focused on Enhancing Dialogue Generation Models using Multi-source Heterogeneous Information.
+Natural Language Processing and AI for Social Good.I earned my Ph.D. from Indian Institute of Technology Patna, India in 2023. I am grateful to have <a href="https://ekbalasif.github.io/" target="_blank" rel="noopener" style="color:#1a73e8;"><b>Prof. Asif Ekbal</b></a> as my Ph.D. supervisor. My doctoral research focused on Enhancing Dialogue Generation Models using Multi-source Heterogeneous Information.
 
-Prior to joining IIT Jodhpur, I worked as a <span style="color:#2e7d32;"><b>Research Fellow at the National University of Singapore (NUS)</b></span> under <a href="#" style="color:#1a73e8;">Prof. Gianmarco Mengaldo</a>, focusing on Climate NLP and Sustainable Finance.
+Prior to joining IIT Jodhpur, I worked as a <span style="color:#2e7d32;"><b>Research Fellow at the National University of Singapore (NUS)</b></span> under <a href="https://www.mathexlab.com/team" target="_blank" rel="noopener" style="color:#1a73e8;">Prof. Gianmarco Mengaldo</a>, focusing on Climate NLP and Sustainable Finance.
 
 My primary research interests lie in Natural Language Processing (NLP) with emphasis on <i>Trustworthy AI, Reasoning and Interpretability and building SLMs, Multilingual Language Models.</i><br>
 I am majorly focusing on problems in Indian Scenario like multilinguality, waste management through technology.
@@ -39,7 +39,7 @@ My recent work also extends to NLP for Healthcare, Climate AI, and Sustainable F
 
 Through the Adhri NLP Lab at IIT Jodhpur, my group actively works on building robust, interpretable, and socially impactful AI systems across multilingual and multi-domain settings.
 
-<p style="color:red; font-weight:600;">I am actively looking for motivated students interested in joining my group as Interns, and Ph.D. scholars at IIT Jodhpur. Please feel free to <a href="mailto:deeksha@iitj.ac.in" style="color:#1a73e8;">email</a> me, with a statement of purpose.</p>
+<p style="color:red; font-weight:600;">I am actively looking for motivated students interested in joining my group as Interns, and Ph.D. scholars at IIT Jodhpur. Please feel free to <a href="mailto:deeksha@iitj.ac.in" target="_blank" rel="noopener" style="color:#1a73e8;">email</a> me, with a statement of purpose.</p>
 
 
 <p style="color:#000000; font-weight:700;">
