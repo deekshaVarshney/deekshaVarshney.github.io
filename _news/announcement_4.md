@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper **[Deriving Strategic Market Insights with Large Language Models: A Benchmark for Forward Counterfactual Generation](https://aclanthology.org/2025.emnlp-main.575/)** has been accepted at EMNLP 2025. (K. Ong, R. Mao, D. Varshney, P. P. Liang, E. Cambria, G. Mengaldo)
+Our paper <b><a href="https://aclanthology.org/2025.emnlp-main.575/">Deriving Strategic Market Insights with Large Language Models: A Benchmark for Forward Counterfactual Generation</a></b> has been accepted at EMNLP 2025. (K. Ong, R. Mao, D. Varshney, P. P. Liang, E. Cambria, G. Mengaldo)
