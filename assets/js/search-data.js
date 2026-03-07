@@ -442,7 +442,7 @@ ninja.data = [{
           title: 'Our paper EMPOWER-KARE: Deep Prompt Learning for Knowledge-aware Response Generation in Clinical Counseling...',
           description: "",
           section: "News",},{id: "news-our-work-protein-secondary-structure-prediction-using-3d-graphs-and-relation-aware-message-passing-transformers-is-now-available-on-arxiv-d-varshney-s-garg-s-tyagi-d-varshney-n-deep-a-ekbal",
-          title: 'Our work “Protein Secondary Structure Prediction Using 3D Graphs and Relation-Aware Message Passing...',
+          title: 'Our work Protein Secondary Structure Prediction Using 3D Graphs and Relation-Aware Message Passing...',
           description: "",
           section: "News",},{id: "news-joined-as-assistant-professor-at-the-school-of-artificial-intelligence-and-data-science-saide-indian-institute-of-technology-jodhpur-iit-jodhpur-rajasthan-india",
           title: 'Joined as Assistant Professor at the School of Artificial Intelligence and Data Science...',
