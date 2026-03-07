@@ -24,7 +24,7 @@
   volume={13},
   number={1},
   pages={3310},
-  doi={https://www.nature.com/articles/s41598-023-29213-8},
+  doi={10.1038/s41598-023-29213-8},
   url={https://doi.org/10.1038/s41598-023-29213-8},
   issn={2045-2322},
   month={Feb 27},
@@ -40,7 +40,7 @@
   archivePrefix={arXiv},
   primaryClass={cs.CL},
   url={https://arxiv.org/abs/2205.13928},
-  doi={https://aclanthology.org/2022.naacl-main.95/},
+  doi={10.18653/v1/2022.naacl-main.95},
   pdf={https://aclanthology.org/2022.naacl-main.95.pdf},
   abstract={Emotion Recognition in Conversation (ERC) is becoming increasingly popular due to the accessibility of an enormous measure of openly accessible conversational information. Moreover, it has potential applications in opinion mining, social media and the health care domain. In this paper, we propose a novel Context and Knowledge Enriched Transformer Framework (CKETF) in which we interpret the contextual information from the utterances using a pre-trained Bidirectional Encoder Representations from Transformers (BERT) model and leverage additive attention based hierarchical transformer for encoding the knowledge sentences. Experiments on the knowledge-grounded Topical Chat dataset shows that both context and external knowledge are important for conversational emotion recognition. We demonstrate through extensive experiments and analysis that our proposed model significantly outperforms the current state-of-the-art methods.}
 }
@@ -71,6 +71,7 @@
   publisher={Association for Computational Linguistics},
   url={https://aclanthology.org/2021.eacl-main.255/},
   doi={10.18653/v1/2021.eacl-main.255},
+  pdf={https://aclanthology.org/2021.eacl-main.255.pdf},
   pages={2919--2931},
   abstract={A recent topic of research in natural language generation has been the development of automatic response generation modules that can automatically respond to a user’s utterance in an empathetic manner. Previous research has tackled this task using neural generative methods by augmenting emotion classes with the input sequences. However, the outputs by these models may be inconsistent. We employ multi-task learning to predict the emotion label and to generate a viable response for a given utterance using a common encoder with multiple decoders. Our proposed encoder-decoder model consists of a self-attention based encoder and a decoder with dot product attention mechanism to generate response with a specified emotion. Human evaluation reveals that our model produces more emotionally pertinent responses.}
 }
@@ -96,7 +97,7 @@
   month={Dec},
   publisher={Association for Computational Linguistics},
   url={https://aclanthology.org/2022.emnlp-main.789/},
-  doi={https://aclanthology.org/2022.emnlp-main.789/},
+  doi={10.18653/v1/2022.emnlp-main.789},
   pdf={https://aclanthology.org/2022.emnlp-main.789.pdf},
   abstract={In natural language understanding (NLU) production systems, users’ evolving needs necessitate the addition of new features over time, indexed by new symbols added to the meaning representation space. This requires additional training data and results in ever-growing datasets. We present the first systematic investigation into this incremental symbol learning scenario. Our analysis reveals a troubling quirk in building broad-coverage NLU systems: as the training dataset grows, performance on a small set of new symbols often decreases. We show that this trend holds for multiple mainstream models on two common NLU tasks: intent recognition and semantic parsing. Rejecting class imbalance as the sole culprit, we reveal that the trend is closely associated with an effect we call source signal dilution, where strong lexical cues for the new symbol become diluted as the training dataset grows. Selectively dropping training examples to prevent dilution often reverses the trend, showing the over-reliance of mainstream neural NLU models on simple lexical cues.}
 }
@@ -152,7 +153,10 @@
   author={Varshney, Deeksha and Ekbal, Asif and Singh, Anushkha},
   booktitle={Proceedings of the 35th Pacific Asia Conference on Language, Information and Computation},
   pages={421--431},
-  year={2021}
+  year={2021},
+  doi={10.1038/s41598-023-29213-8},
+  pdf={https://www.nature.com/articles/s41598-023-29213-8.pdf},
+  abstract={Smart healthcare systems that make use of abundant health data can improve access to healthcare services, reduce medical costs and provide consistently high-quality patient care. Medical dialogue systems that generate medically appropriate and human-like conversations have been developed using various pre-trained language models and a large-scale medical knowledge base based on Unified Medical Language System (UMLS). However, most of the knowledge-grounded dialogue models only use local structure in the observed triples, which suffer from knowledge graph incompleteness and hence cannot incorporate any information from dialogue history while creating entity embeddings. As a result, the performance of such models decreases significantly. To address this problem, we propose a general method to embed the triples in each graph into large-scalable models and thereby generate clinically correct responses based on the conversation history using the recently recently released MedDialog(EN) dataset. Given a set of triples, we first mask the head entities from the triples overlapping with the patient’s utterance and then compute the cross-entropy loss against the triples’ respective tail entities while predicting the masked entity. This process results in a representation of the medical concepts from a graph capable of learning contextual information from dialogues, which ultimately aids in leading to the gold response. We also fine-tune the proposed Masked Entity Dialogue (MED) model on smaller corpora which contain dialogues focusing only on the Covid-19 disease named as the Covid Dataset. In addition, since UMLS and other existing medical graphs lack data-specific medical information, we re-curate and perform plausible augmentation of knowledge graphs using our newly created Medical Entity Prediction (MEP) model. Empirical results on the MedDialog(EN) and Covid Dataset demonstrate that our proposed model outperforms the state-of-the-art methods in terms of both automatic and human evaluation metrics.}
 }
 
 @article{Varshney2023EmoKbGAN,
@@ -274,5 +278,8 @@
   eprint={2309.00133},
   archivePrefix={arXiv},
   primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2309.00133}
+  url={https://arxiv.org/abs/2309.00133},
+  doi={10.48550/arXiv.2309.00133},
+  pdf={https://arxiv.org/pdf/2309.00133},
+  abstract={The generation of effective latent representations and their subsequent refinement to incorporate precise information is an essential prerequisite for Vision-Language Understanding (VLU) tasks such as Video Question Answering (VQA). However, most existing methods for VLU focus on sparsely sampling or fine-graining the input information (e.g., sampling a sparse set of frames or text tokens), or adding external knowledge. We present a novel "DRAX: Distraction Removal and Attended Cross-Alignment" method to rid our cross-modal representations of distractors in the latent space. We do not exclusively confine the perception of any input information from various modalities but instead use an attention-guided distraction removal method to increase focus on task-relevant information in latent embeddings. DRAX also ensures semantic alignment of embeddings during cross-modal fusions. We evaluate our approach on a challenging benchmark (SUTD-TrafficQA dataset), testing the framework's abilities for feature and event queries, temporal relation understanding, forecasting, hypothesis, and causal analysis through extensive experiments.}
 }
