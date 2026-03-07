@@ -436,7 +436,7 @@ ninja.data = [{
           title: 'Our paper Deriving Strategic Market Insights with Large Language Models: A Benchmark for...',
           description: "",
           section: "News",},{id: "news-our-work-concept-based-interpretability-for-toxicity-detection-is-now-available-on-arxiv-s-garg-d-singh-d-varshney-mamta",
-          title: 'Our work “Concept-Based Interpretability for Toxicity Detection” is now available on arXiv. (S....',
+          title: 'Our work Concept-Based Interpretability for Toxicity Detection is now available on arXiv. (S....',
           description: "",
           section: "News",},{id: "news-our-paper-empower-kare-deep-prompt-learning-for-knowledge-aware-response-generation-in-clinical-counseling-and-legal-support-conversations-has-been-accepted-in-ieee-transactions-on-artificial-intelligence-p-priya-a-m-tripathi-d-varshney-m-firdaus-a-ekbal",
           title: 'Our paper EMPOWER-KARE: Deep Prompt Learning for Knowledge-aware Response Generation in Clinical Counseling...',
