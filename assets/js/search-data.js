@@ -439,7 +439,7 @@ ninja.data = [{
           title: 'Our work “Concept-Based Interpretability for Toxicity Detection” is now available on arXiv. (S....',
           description: "",
           section: "News",},{id: "news-our-paper-empower-kare-deep-prompt-learning-for-knowledge-aware-response-generation-in-clinical-counseling-and-legal-support-conversations-has-been-accepted-in-ieee-transactions-on-artificial-intelligence-p-priya-a-m-tripathi-d-varshney-m-firdaus-a-ekbal",
-          title: 'Our paper “EMPOWER-KARE: Deep Prompt Learning for Knowledge-aware Response Generation in Clinical Counseling...',
+          title: 'Our paper EMPOWER-KARE: Deep Prompt Learning for Knowledge-aware Response Generation in Clinical Counseling...',
           description: "",
           section: "News",},{id: "news-our-work-protein-secondary-structure-prediction-using-3d-graphs-and-relation-aware-message-passing-transformers-is-now-available-on-arxiv-d-varshney-s-garg-s-tyagi-d-varshney-n-deep-a-ekbal",
           title: 'Our work “Protein Secondary Structure Prediction Using 3D Graphs and Relation-Aware Message Passing...',
