@@ -433,7 +433,7 @@ ninja.data = [{
           title: 'Our work “ClimaEmpact: Domain-Aligned Small Language Models and Datasets for Extreme Weather Analytics”...',
           description: "",
           section: "News",},{id: "news-our-paper-deriving-strategic-market-insights-with-large-language-models-a-benchmark-for-forward-counterfactual-generation-has-been-accepted-at-emnlp-2025-k-ong-r-mao-d-varshney-p-p-liang-e-cambria-g-mengaldo",
-          title: 'Our paper “Deriving Strategic Market Insights with Large Language Models: A Benchmark for...',
+          title: 'Our paper Deriving Strategic Market Insights with Large Language Models: A Benchmark for...',
           description: "",
           section: "News",},{id: "news-our-work-concept-based-interpretability-for-toxicity-detection-is-now-available-on-arxiv-s-garg-d-singh-d-varshney-mamta",
           title: 'Our work “Concept-Based Interpretability for Toxicity Detection” is now available on arXiv. (S....',
