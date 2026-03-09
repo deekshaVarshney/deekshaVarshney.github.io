@@ -1,17 +1,17 @@
 metadata:
-  last_updated: '2026-02-11'
+  last_updated: '2026-03-09'
 papers:
   a6T1uIUAAAAJ:0EnyYjriUFMC:
     citations: 3
-    title: 'Knowledge-enhanced Response Generation in Dialogue Systems: Current Advancements and Emerging Horizons'
+    title: 'Knowledge-enhanced response generation in dialogue systems: Current advancements and emerging horizons'
     year: '2024'
   a6T1uIUAAAAJ:2osOgNQ5qMEC:
     citations: 4
     title: Multi-lingual event identification in disaster domain
     year: '2019'
   a6T1uIUAAAAJ:3fE2CSJIrl8C:
-    citations: 14
-    title: 'Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization'
+    citations: 17
+    title: 'Towards robust esg analysis against greenwashing risks: Aspect-action analysis with cross-category generalization'
     year: '2025'
   a6T1uIUAAAAJ:4TOpqqG69KYC:
     citations: 0
@@ -19,14 +19,14 @@ papers:
     year: '2025'
   a6T1uIUAAAAJ:5nxA0vEk-isC:
     citations: 4
-    title: Sentiment Analysis on Climate Change for Sustainable Investment
+    title: Sentiment analysis on climate change for sustainable investment
     year: '2024'
   a6T1uIUAAAAJ:8k81kl-MbHgC:
-    citations: 0
-    title: 'MedProm: Bridging Dialogue Gaps in Healthcare with Knowledge-Enhanced Generative Models'
+    citations: 2
+    title: 'Medprom: Bridging dialogue gaps in healthcare with knowledge-enhanced generative models'
     year: '2025'
   a6T1uIUAAAAJ:9yKSN-GCB0IC:
-    citations: 14
+    citations: 15
     title: Natural language generation using transformer network in an open-domain setting
     year: '2020'
   a6T1uIUAAAAJ:IjCSPb-OGe4C:
@@ -34,8 +34,8 @@ papers:
     title: Knowledge grounded multimodal dialog generation in task-oriented settings
     year: '2021'
   a6T1uIUAAAAJ:KlAtU1dfN6UC:
-    citations: 2
-    title: 'ClimaEmpact: Domain-Aligned Small Language Models and Datasets for Extreme Weather Analytics'
+    citations: 3
+    title: 'ClimaEmpact: domain-aligned small language models and datasets for extreme weather analytics'
     year: '2025'
   a6T1uIUAAAAJ:LkGwnXOMwfcC:
     citations: 0
@@ -46,7 +46,7 @@ papers:
     title: Prevalence of Asymptomatic Hypertension and Its Associated Risk Factors among Adults Attending a Tertiary Care Hospital in Western India
     year: Unknown Year
   a6T1uIUAAAAJ:Se3iqnhoufwC:
-    citations: 8
+    citations: 9
     title: 'KIMedQA: towards building knowledge-enhanced medical QA models'
     year: '2024'
   a6T1uIUAAAAJ:UeHWp8X0CEIC:
@@ -55,7 +55,7 @@ papers:
     year: '2021'
   a6T1uIUAAAAJ:UebtZRa9Y70C:
     citations: 6
-    title: Are my answers medically accurate? Exploiting medical knowledge graphs for medical question answering
+    title: 'Are my answers medically accurate? Exploiting medical knowledge graphs for medical question answering: A. Zafar et al.'
     year: '2024'
   a6T1uIUAAAAJ:W7OEmFMy1HYC:
     citations: 11
@@ -66,16 +66,16 @@ papers:
     title: Knowledge graph assisted end-to-end medical dialog generation
     year: '2023'
   a6T1uIUAAAAJ:YOwf2qJgpHMC:
-    citations: 6
+    citations: 8
     title: 'ESGSenticNet: A neurosymbolic knowledge base for corporate sustainability analysis'
     year: '2025'
   a6T1uIUAAAAJ:YsMSGLbcyi4C:
-    citations: 11
+    citations: 9
     title: 'EmoKbGAN: Emotion controlled response generation using Generative Adversarial Network for knowledge grounded conversation'
     year: '2023'
   a6T1uIUAAAAJ:Zph67rFs4hoC:
-    citations: 1
-    title: 'Deriving Strategic Market Insights with Large Language Models: A Benchmark for Forward Counterfactual Generation'
+    citations: 3
+    title: 'Deriving strategic market insights with large language models: A benchmark for forward counterfactual generation'
     year: '2025'
   a6T1uIUAAAAJ:_FxGoFyzp5QC:
     citations: 0
@@ -105,8 +105,12 @@ papers:
     citations: 20
     title: Modelling context emotions using multi-task learning for emotion controlled dialog generation
     year: '2021'
+  a6T1uIUAAAAJ:qxL8FJ1GzNcC:
+    citations: 0
+    title: 'Indic-TunedLens: Interpreting Multilingual Models in Indian Languages'
+    year: '2026'
   a6T1uIUAAAAJ:roLk4NBRz8UC:
-    citations: 25
+    citations: 26
     title: Emotion-and-knowledge grounded response generation in an open-domain dialogue setting
     year: '2024'
   a6T1uIUAAAAJ:zYLM7Y9cAGgC:
