@@ -8,221 +8,187 @@ nav_order: 7
 
 <style>
 .section-title{
-  font-size:28px;
-  font-weight:700;
-  margin-top:40px;
+  font-size:28px !important;
+  font-weight:700 !important;
+  margin-top:40px !important;
 }
 
 .sub-title{
-  font-size:20px;
-  font-weight:600;
-  margin-top:10px;
+  font-size:20px !important;
+  font-weight:600 !important;
+  margin-top:10px !important;
 }
 
 .people-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
-  gap:30px;
-  margin-top:25px;
+  display:grid !important;
+  grid-template-columns:repeat(auto-fit,minmax(160px,1fr)) !important;
+  gap:30px !important;
+  margin-top:25px !important;
 }
 
 .person{
-  text-align:center;
+  text-align:center !important;
 }
 
 .person img{
-  width:130px;
-  height:130px;
-  border-radius:50%;
-  object-fit:cover;
-  border:3px solid #eee;
+  width:130px !important;
+  height:130px !important;
+  border-radius:50% !important;
+  object-fit:cover !important;
+  border:3px solid #eee !important;
+  display:block !important;
+  margin:0 auto !important;
 }
 
 .person-name{
-  margin-top:10px;
-  font-size:15px;
-  font-weight:500;
+  margin-top:10px !important;
+  font-size:15px !important;
+  font-weight:500 !important;
 }
 
-.person-topic{
-  margin-top:6px;
-  font-size:12px;
-  color:#666;
-  font-style:italic;
-  display:none;
-}
-
-.person-links{
-  margin-top:6px;
-  font-size:12px;
-}
-
-.person-links a{
-  color:#1a73e8;
-  text-decoration:none;
-  margin: 0 4px;
-}
-
-.person-links a:hover{
-  text-decoration:underline;
-}
-
-/* Toggle button */
 .topic-toggle{
-  margin-top:6px;
-  font-size:11px;
-  background:none;
-  border:1px solid #ccc;
-  border-radius:10px;
-  padding:2px 8px;
-  cursor:pointer;
-  color:#555;
+  margin-top:6px !important;
+  font-size:11px !important;
+  background:none !important;
+  border:1px solid #aaa !important;
+  border-radius:10px !important;
+  padding:2px 8px !important;
+  cursor:pointer !important;
+  color:#555 !important;
+  display:block !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+  font-family:inherit !important;
 }
 
 .topic-toggle:hover{
-  background:#f0f0f0;
+  background:#f0f0f0 !important;
 }
 
-/* Bio popup overlay */
-.bio-overlay{
+/* Bio Modal Overlay */
+#bioOverlay{
   display:none;
-  position:fixed;
-  top:0; left:0;
-  width:100%; height:100%;
-  background:rgba(0,0,0,0.5);
-  z-index:1000;
-  justify-content:center;
-  align-items:center;
+  position:fixed !important;
+  top:0 !important;
+  left:0 !important;
+  width:100% !important;
+  height:100% !important;
+  background:rgba(0,0,0,0.6) !important;
+  z-index:99999 !important;
+  justify-content:center !important;
+  align-items:center !important;
 }
 
-.bio-overlay.active{
-  display:flex;
+#bioOverlay.active{
+  display:flex !important;
 }
 
-.bio-card{
-  background:#fff;
-  border-radius:12px;
-  padding:30px;
-  max-width:480px;
-  width:90%;
-  position:relative;
-  text-align:center;
-  box-shadow:0 10px 40px rgba(0,0,0,0.2);
+#bioCard{
+  background:#ffffff !important;
+  border-radius:12px !important;
+  padding:30px !important;
+  max-width:480px !important;
+  width:90% !important;
+  position:relative !important;
+  text-align:center !important;
+  box-shadow:0 10px 40px rgba(0,0,0,0.3) !important;
+  color:#222 !important;
 }
 
-.bio-card img{
-  width:100px;
-  height:100px;
-  border-radius:50%;
-  object-fit:cover;
-  border:3px solid #eee;
-  margin-bottom:12px;
+#bioCard img{
+  width:100px !important;
+  height:100px !important;
+  border-radius:50% !important;
+  object-fit:cover !important;
+  border:3px solid #ddd !important;
+  margin-bottom:12px !important;
+  display:block !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
 }
 
-.bio-card h3{
-  margin:0 0 4px;
-  font-size:18px;
+#bioCard h3{
+  margin:0 0 6px !important;
+  font-size:18px !important;
+  color:#111 !important;
 }
 
-.bio-card .bio-topic{
-  font-size:13px;
-  font-weight:600;
-  color:#1a73e8;
-  margin-bottom:10px;
+#bioTopic{
+  font-size:13px !important;
+  font-weight:600 !important;
+  color:#1a73e8 !important;
+  margin-bottom:12px !important;
 }
 
-.bio-card p{
-  font-size:13px;
-  color:#444;
-  line-height:1.6;
-  text-align:left;
+#bioBio{
+  font-size:13px !important;
+  color:#444 !important;
+  line-height:1.7 !important;
+  text-align:left !important;
+  margin:0 !important;
 }
 
-.bio-card .bio-links{
-  margin-top:12px;
+#bioLinks{
+  margin-top:16px !important;
+  display:flex !important;
+  justify-content:center !important;
+  gap:12px !important;
+  flex-wrap:wrap !important;
 }
 
-.bio-card .bio-links a{
-  color:#1a73e8;
-  text-decoration:none;
-  font-size:13px;
-  margin:0 6px;
+#bioLinks a{
+  color:#1a73e8 !important;
+  text-decoration:none !important;
+  font-size:13px !important;
+  border:1px solid #1a73e8 !important;
+  border-radius:8px !important;
+  padding:5px 14px !important;
+  display:inline-block !important;
 }
 
-.bio-close{
-  position:absolute;
-  top:12px; right:16px;
-  background:none;
-  border:none;
-  font-size:22px;
-  cursor:pointer;
-  color:#888;
+#bioLinks a:hover{
+  background:#1a73e8 !important;
+  color:#fff !important;
 }
 
-.bio-close:hover{ color:#333; }
+#bioClose{
+  position:absolute !important;
+  top:10px !important;
+  right:14px !important;
+  background:none !important;
+  border:none !important;
+  font-size:24px !important;
+  cursor:pointer !important;
+  color:#888 !important;
+  line-height:1 !important;
+}
+
+#bioClose:hover{
+  color:#222 !important;
+}
 
 @media (max-width:768px){
   .people-grid{
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns:repeat(2,1fr) !important;
   }
   .person img{
-    width:100px;
-    height:100px;
+    width:100px !important;
+    height:100px !important;
   }
 }
 </style>
 
 <!-- Bio Modal -->
-<div class="bio-overlay" id="bioOverlay" onclick="closeBioIfOutside(event)">
-  <div class="bio-card" id="bioCard">
-    <button class="bio-close" onclick="closeBio()">×</button>
-    <img id="bioImg" src="" alt="">
+<div id="bioOverlay">
+  <div id="bioCard">
+    <button id="bioClose">&#x2715;</button>
+    <img id="bioImg" src="" alt="profile photo">
     <h3 id="bioName"></h3>
-    <div class="bio-topic" id="bioTopic"></div>
+    <div id="bioTopic"></div>
     <p id="bioBio"></p>
-    <div class="bio-links" id="bioLinks"></div>
+    <div id="bioLinks"></div>
   </div>
 </div>
-
-<script>
-const peopleData = {
-  "saikat": {
-    name: "Saikat Mondal",
-    img: "/assets/img/saikat.jpg",
-    topic: "AI Safety & LLM Alignment",
-    bio: "I am Saikat Mondal, a PhD scholar in the School of Artificial Intelligence and Data Science. My research focuses on AI Safety, Large Language Model (LLM) alignment, and multilingual safety evaluation. Hobbies: Reading Bengali novels, listening to music, and exploring topics related to social sciences and politics.",
-    scopus: "https://www.scopus.com/authid/detail.uri?authorId=SAIKAT_ID"
-  },
-  "avni": {
-    name: "Avni Singh",
-    img: "/assets/img/avni.jpg",
-    topic: "AI-Driven Pulmonary Embolism Diagnosis",
-    bio: "I am developing an AI framework that combines the reasoning power of Large Language Models (LLMs) with the factual accuracy of Knowledge Graphs to improve Pulmonary Embolism diagnosis. By anchoring generative AI in structured medical knowledge, I aim to eliminate 'black box' outcomes and provide clinicians with both highly accurate diagnostic insights and clear, evidence-based explanations for every decision.",
-    scopus: "https://www.scopus.com/authid/detail.uri?authorId=AVNI_ID"
-  }
-};
-
-function openBio(key) {
-  const d = peopleData[key];
-  if (!d) return;
-  document.getElementById('bioImg').src = d.img;
-  document.getElementById('bioName').textContent = d.name;
-  document.getElementById('bioTopic').textContent = d.topic;
-  document.getElementById('bioBio').textContent = d.bio;
-  document.getElementById('bioLinks').innerHTML = d.scopus
-    ? `<a href="${d.scopus}" target="_blank">📄 Scopus</a>`
-    : '';
-  document.getElementById('bioOverlay').classList.add('active');
-}
-
-function closeBio() {
-  document.getElementById('bioOverlay').classList.remove('active');
-}
-
-function closeBioIfOutside(e) {
-  if (e.target === document.getElementById('bioOverlay')) closeBio();
-}
-</script>
 
 
 # PhD
@@ -233,13 +199,12 @@ function closeBioIfOutside(e) {
 <div class="people-grid">
 
 <div class="person">
-  <img src="/assets/img/saikat.jpg" onerror="this.src='/assets/img/default-avatar.png'">
+  <img src="{{ site.baseurl }}/assets/img/saikat.jpg" onerror="this.src='{{ site.baseurl }}/assets/img/default-avatar.png'">
   <div class="person-name">Saikat Mondal</div>
   <button class="topic-toggle" onclick="openBio('saikat')">AI Safety · LLM Alignment ▾</button>
 </div>
 
 </div>
-
 
 
 # M.Tech
@@ -250,53 +215,52 @@ function closeBioIfOutside(e) {
 <div class="people-grid">
 
 <div class="person">
-<img src="/assets/img/default-avatar.png">
-<div class="person-name">Rounak Sen (AR/VR)</div>
+  <img src="{{ site.baseurl }}/assets/img/default-avatar.png">
+  <div class="person-name">Rounak Sen (AR/VR)</div>
 </div>
 
 <div class="person">
-<img src="/assets/img/default-avatar.png">
-<div class="person-name">Sikkireddy Lakshmi Shanmukha</div>
+  <img src="{{ site.baseurl }}/assets/img/default-avatar.png">
+  <div class="person-name">Sikkireddy Lakshmi Shanmukha</div>
 </div>
 
 <div class="person">
-<img src="/assets/img/default-avatar.png">
-<div class="person-name">Rohan Karna</div>
+  <img src="{{ site.baseurl }}/assets/img/default-avatar.png">
+  <div class="person-name">Rohan Karna</div>
 </div>
 
 <div class="person">
-<img src="/assets/img/default-avatar.png">
-<div class="person-name">Sharad Kumar Singh</div>
+  <img src="{{ site.baseurl }}/assets/img/default-avatar.png">
+  <div class="person-name">Sharad Kumar Singh</div>
 </div>
 
 <div class="person">
-<img src="/assets/img/default-avatar.png">
-<div class="person-name">Gautam Kumar Kushwaha</div>
+  <img src="{{ site.baseurl }}/assets/img/default-avatar.png">
+  <div class="person-name">Gautam Kumar Kushwaha</div>
 </div>
 
 <div class="person">
-<img src="/assets/img/default-avatar.png">
-<div class="person-name">Akash Banik</div>
+  <img src="{{ site.baseurl }}/assets/img/default-avatar.png">
+  <div class="person-name">Akash Banik</div>
 </div>
 
 <div class="person">
-  <img src="/assets/img/avni.jpg" onerror="this.src='/assets/img/default-avatar.png'">
+  <img src="{{ site.baseurl }}/assets/img/avni.jpg" onerror="this.src='{{ site.baseurl }}/assets/img/default-avatar.png'">
   <div class="person-name">Avni Singh</div>
   <button class="topic-toggle" onclick="openBio('avni')">Pulmonary Embolism AI ▾</button>
 </div>
 
 <div class="person">
-<img src="/assets/img/default-avatar.png">
-<div class="person-name">Deepak Kumar</div>
+  <img src="{{ site.baseurl }}/assets/img/default-avatar.png">
+  <div class="person-name">Deepak Kumar</div>
 </div>
 
 <div class="person">
-<img src="/assets/img/default-avatar.png">
-<div class="person-name">Krothinyi Medeo</div>
+  <img src="{{ site.baseurl }}/assets/img/default-avatar.png">
+  <div class="person-name">Krothinyi Medeo</div>
 </div>
 
 </div>
-
 
 
 # M.Tech Executive
@@ -306,16 +270,15 @@ function closeBioIfOutside(e) {
 
 <div class="people-grid">
 
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Veekshan</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Kashmeera</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Shumbham</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Anshul</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Neha</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Netaji</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Nitin Jain</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Veekshan</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Kashmeera</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Shumbham</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Anshul</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Neha</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Netaji</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Nitin Jain</div></div>
 
 </div>
-
 
 
 # B.Tech – DC
@@ -325,33 +288,88 @@ function closeBioIfOutside(e) {
 
 <div class="people-grid">
 
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Kolapkar Vipul Kishor</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Kartik Jain</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Shreehitha Talari</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Lagudu Pooja Rani</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Jangili Mahalaxmi</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Nallaiahgari Deadeepya</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">B Bharadhwaj Naik</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">D Ashish Rathnam</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Pundru Nehith Reddy</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Mihir Pancal</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Prajeet Katari</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Kolapkar Vipul Kishor</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Kartik Jain</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Shreehitha Talari</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Lagudu Pooja Rani</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Jangili Mahalaxmi</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Nallaiahgari Deadeepya</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">B Bharadhwaj Naik</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">D Ashish Rathnam</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Pundru Nehith Reddy</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Mihir Pancal</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Prajeet Katari</div></div>
 
 </div>
-
 
 
 ### Previous Students
 
 <div class="people-grid">
 
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Iftikhar</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Mukkera</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Rutuja</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Rishabh</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Suvarn</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Sai Manav</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Priyansu Narendra Rajput</div></div>
-<div class="person"><img src="/assets/img/default-avatar.png"><div class="person-name">Vaniya Ankit Sureshbhai</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Iftikhar</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Mukkera</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Rutuja</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Rishabh</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Suvarn</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Sai Manav</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Priyansu Narendra Rajput</div></div>
+<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Vaniya Ankit Sureshbhai</div></div>
 
 </div>
+
+
+<!-- ===================== SCRIPT AT BOTTOM ===================== -->
+<script>
+var peopleData = {
+  "saikat": {
+    name: "Saikat Mondal",
+    img: "{{ site.baseurl }}/assets/img/saikat.jpg",
+    fallback: "{{ site.baseurl }}/assets/img/default-avatar.png",
+    topic: "AI Safety · LLM Alignment · Multilingual Safety Evaluation",
+    bio: "I am Saikat Mondal, a PhD scholar in the School of Artificial Intelligence and Data Science. My research focuses on AI Safety, Large Language Model (LLM) alignment, and multilingual safety evaluation. Hobbies: Reading Bengali novels, listening to music, and exploring topics related to social sciences and politics.",
+    scopus: "https://www.scopus.com/authid/detail.uri?authorId=SAIKAT_SCOPUS_ID"
+  },
+  "avni": {
+    name: "Avni Singh",
+    img: "{{ site.baseurl }}/assets/img/avni.jpg",
+    fallback: "{{ site.baseurl }}/assets/img/default-avatar.png",
+    topic: "AI-Driven Pulmonary Embolism Diagnosis using LLMs & Knowledge Graphs",
+    bio: "I am developing an AI framework that combines the reasoning power of Large Language Models (LLMs) with the factual accuracy of Knowledge Graphs to improve Pulmonary Embolism diagnosis. By anchoring generative AI in structured medical knowledge, I aim to eliminate 'black box' outcomes and provide clinicians with both highly accurate diagnostic insights and clear, evidence-based explanations for every decision.",
+    scopus: "https://www.scopus.com/authid/detail.uri?authorId=AVNI_SCOPUS_ID"
+  }
+};
+
+function openBio(key) {
+  var d = peopleData[key];
+  if (!d) return;
+  var img = document.getElementById('bioImg');
+  img.src = d.img;
+  img.onerror = function(){ this.src = d.fallback; };
+  document.getElementById('bioName').textContent = d.name;
+  document.getElementById('bioTopic').textContent = d.topic;
+  document.getElementById('bioBio').textContent = d.bio;
+  var linksHtml = '';
+  if (d.scopus) {
+    linksHtml += '<a href="' + d.scopus + '" target="_blank">&#128196; Scopus</a>';
+  }
+  document.getElementById('bioLinks').innerHTML = linksHtml;
+  document.getElementById('bioOverlay').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeBio() {
+  document.getElementById('bioOverlay').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+document.getElementById('bioClose').addEventListener('click', closeBio);
+
+document.getElementById('bioOverlay').addEventListener('click', function(e){
+  if (e.target === this) closeBio();
+});
+
+document.addEventListener('keydown', function(e){
+  if (e.key === 'Escape') closeBio();
+});
+</script>
