@@ -116,7 +116,7 @@ function toggleTopic(btn) {
   <img src="{{ site.baseurl }}/assets/img/saikat.jpg" onerror="this.src='{{ site.baseurl }}/assets/img/default-avatar.png'">
   <div class="person-name">Saikat Mondal</div>
   <button class="topic-toggle" data-label="AI Safety · LLM Alignment" onclick="toggleTopic(this)">AI Safety · LLM Alignment ▾</button>
-  <div class="person-topic">AI Safety, Large Language Model (LLM) alignment, and multilingual safety evaluation.</div>
+  <div class="person-topic">I am Saikat Mondal, a PhD scholar in the School of Artificial Intelligence and Data Science. My research focuses on AI Safety, Large Language Model (LLM) alignment, and multilingual safety evaluation. Hobbies: Reading Bengali novels, listening to music, and exploring topics related to social sciences and politics.</div>
   <div class="person-scopus"><a href="https://www.scopus.com/authid/detail.uri?authorId=SAIKAT_SCOPUS_ID" target="_blank">📄 Scopus</a></div>
 </div>
 
@@ -164,7 +164,7 @@ function toggleTopic(btn) {
   <img src="{{ site.baseurl }}/assets/img/avni.jpg" onerror="this.src='{{ site.baseurl }}/assets/img/default-avatar.png'">
   <div class="person-name">Avni Singh</div>
   <button class="topic-toggle" data-label="Pulmonary Embolism AI" onclick="toggleTopic(this)">Pulmonary Embolism AI ▾</button>
-  <div class="person-topic">AI framework combining LLMs with Knowledge Graphs to improve Pulmonary Embolism diagnosis with evidence-based explanations.</div>
+  <div class="person-topic">I am developing an AI framework that combines the reasoning power of Large Language Models (LLMs) with the factual accuracy of Knowledge Graphs to improve Pulmonary Embolism diagnosis. By anchoring generative AI in structured medical knowledge, I aim to eliminate 'black box' outcomes and provide clinicians with both highly accurate diagnostic insights and clear, evidence-based explanations for every decision.</div>
   <div class="person-scopus"><a href="https://www.scopus.com/authid/detail.uri?authorId=AVNI_SCOPUS_ID" target="_blank">📄 Scopus</a></div>
 </div>
 
