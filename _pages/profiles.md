@@ -113,7 +113,7 @@ function toggleTopic(btn) {
 <div class="people-grid">
 
 <div class="person">
-  <img src="{{ site.baseurl }}/assets/img/saikat.png" onerror="this.src='{{ site.baseurl }}/assets/img/default-avatar.png'">
+  <img src="{{ site.baseurl }}/assets/img/saikat.jpeg" onerror="this.src='{{ site.baseurl }}/assets/img/default-avatar.png'">
   <div class="person-name">Saikat Mondal</div>
   <button class="topic-toggle" data-label="AI Safety · LLM Alignment" onclick="toggleTopic(this)">AI Safety · LLM Alignment ▾</button>
   <div class="person-topic">I am Saikat Mondal, a PhD scholar in the School of Artificial Intelligence and Data Science. My research focuses on AI Safety, Large Language Model (LLM) alignment, and multilingual safety evaluation. Hobbies: Reading Bengali novels, listening to music, and exploring topics related to social sciences and politics.</div>
