@@ -98,10 +98,28 @@
 
   "teaching": [
     {
-      "institution": "IIT Jodhpur, India",
-      "role": "Instructor",
-      "year": "2025",
-      "summary": "Courses taught:<br>CSL7610 – Artificial Intelligence (Ph.D. & M.Tech Programme, July 2025 – December 2025)<br>AIL7390 – Deep Learning for Natural Language Processing (Ph.D., M.Tech & B.Tech Programme)<br>AIL7260 – Foundations of Vision and Language (M.Tech, Ph.D. & B.Tech Programme)<br>Machine Learning I – B.S./B.Sc. in Applied AI and Data Science (Online Programme)"
+    "institution": "IIT Jodhpur, India",
+    "role": "Instructor",
+    "year": "2025",
+    "summary": "CSL7610 – Artificial Intelligence (Ph.D. & M.Tech Programme)"
+    },
+    {
+    "institution": "IIT Jodhpur, India",
+    "role": "Instructor",
+    "year": "2025",
+    "summary": "AIL7390 – Deep Learning for Natural Language Processing"
+    },
+    {
+    "institution": "IIT Jodhpur, India",
+    "role": "Instructor",
+    "year": "2025",
+    "summary": "AIL7260 – Foundations of Vision and Language"
+    },
+    {
+    "institution": "IIT Jodhpur, India",
+    "role": "Instructor",
+    "year": "2025",
+    "summary": "Machine Learning I – B.S./B.Sc. Applied AI & Data Science (Online Programme)"
     }
   ],
 
