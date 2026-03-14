@@ -161,7 +161,7 @@ function toggleTopic(btn) {
 </div>
 
 <div class="person">
-  <img src="{{ site.baseurl }}/assets/img/avni.jpg" onerror="this.src='{{ site.baseurl }}/assets/img/default-avatar.png'">
+  <img src="{{ site.baseurl }}/assets/img/avni.png" onerror="this.src='{{ site.baseurl }}/assets/img/default-avatar.png'">
   <div class="person-name">Avni Singh</div>
   <button class="topic-toggle" data-label="Pulmonary Embolism AI" onclick="toggleTopic(this)">Pulmonary Embolism AI ▾</button>
   <div class="person-topic">I am developing an AI framework that combines the reasoning power of Large Language Models (LLMs) with the factual accuracy of Knowledge Graphs to improve Pulmonary Embolism diagnosis. By anchoring generative AI in structured medical knowledge, I aim to eliminate 'black box' outcomes and provide clinicians with both highly accurate diagnostic insights and clear, evidence-based explanations for every decision.</div>
