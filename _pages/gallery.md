@@ -1,13 +1,11 @@
 ---
-
 layout: page
 title: Gallery
 permalink: /gallery/
 nav: true
 nav_order: 8
-------------
+---
 
-# Gallery
 
 <button class="gallery-btn" onclick="toggleSection('invited')">
 Invited Talks
