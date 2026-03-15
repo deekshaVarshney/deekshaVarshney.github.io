@@ -3,7 +3,7 @@ layout: page
 title: People
 permalink: /people/
 nav: true
-nav_order: 7
+nav_order: 4
 ---
 
 <style>
