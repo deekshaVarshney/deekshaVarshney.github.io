@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-09'
+  last_updated: '2026-03-16'
 papers:
   a6T1uIUAAAAJ:0EnyYjriUFMC:
     citations: 3
@@ -41,10 +41,6 @@ papers:
     citations: 0
     title: Aspect-level sentiment-controlled knowledge grounded multimodal dialog generation using generative models for reviews
     year: '2024'
-  a6T1uIUAAAAJ:M3ejUd6NZC8C:
-    citations: 0
-    title: Prevalence of Asymptomatic Hypertension and Its Associated Risk Factors among Adults Attending a Tertiary Care Hospital in Western India
-    year: Unknown Year
   a6T1uIUAAAAJ:Se3iqnhoufwC:
     citations: 9
     title: 'KIMedQA: towards building knowledge-enhanced medical QA models'
