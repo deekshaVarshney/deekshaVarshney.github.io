@@ -5,7 +5,7 @@ last_name: Varshney
 
 profile:
   align: right
-  image: /assets/img/profile.jpeg
+  image: profile.jpeg
   image_circular: false
   more_info:
 contact_note: ""
