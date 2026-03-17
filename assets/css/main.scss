@@ -23,3 +23,27 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* ============================
+   Custom About Page Styles
+============================ */
+.about-text {
+  float: left;         /* Keep text on the left */
+  width: 60%;          /* Adjust so it doesn't wrap under image */
+  margin-right: 2rem;  /* Space between text and profile pic */
+}
+
+.profile-picture {
+  float: right;        /* Keep image on the right */
+  width: 30%;          /* Adjust image size */
+  max-width: 200px;    /* Prevent image from being too large */
+}
+
+@media (max-width: 768px) {
+  .about-text, .profile-picture {
+    float: none;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+}
