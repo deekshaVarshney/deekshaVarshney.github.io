@@ -6,7 +6,7 @@ subtitle: "<a href='#'>School of AI and Data Science</a>. IIT Jodhpur. deeksha@i
 
 profile:
   align: right
-  image: /assets/img/profile.jpeg
+  image: profile.jpeg
   image_circular: false
  
 selected_papers: true # includes a list of papers marked as "selected={true}"
