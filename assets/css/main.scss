@@ -1,5 +1,5 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs front matter
 ---
 @charset "utf-8";
 
@@ -25,70 +25,85 @@ $max-content-width: {{ site.max_width }};
 ;
 
 /* ============================
-   About Page — No Text Under Photo
+   About Page Layout Fix
 ============================ */
 
-/* Make text respect the floated profile image */
 .about-text {
-  overflow: auto;     /* ⭐ KEY FIX */
+  overflow: auto;
   max-width: 900px;
   margin-left: -1rem;
   line-height: 1.6;
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   .about-text {
     margin: 0;
     max-width: 100%;
   }
+}
 
 /* ============================
    Profile Footer (Under Photo)
 ============================ */
 
 .profile-footer {
-  text-align: center;      /* center everything */
+  text-align: center;
   margin-top: 10px;
 }
 
-/* Name */
 .profile-name {
   font-weight: 700;
   font-size: 1.2rem;
   margin-bottom: 4px;
 }
 
-/* Title text */
 .profile-title {
   font-size: 0.95rem;
   line-height: 1.4;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
-/* Icon container */
+/* ICON CONTAINER */
+.profile-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+/* SAME BOX FOR EVERY ICON */
 .profile-icons a {
-  margin: 0 6px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  transition: all 0.2s ease;
 }
 
-/* All font icons same size & bigger */
+/* STANDARDIZE ICON SIZE */
+.profile-icons i,
+.profile-icons img {
+  width: 22px;
+  height: 22px;
+  font-size: 22px;
+  object-fit: contain;
+}
+
+/* ICON COLOR (for font icons) */
 .profile-icons i {
-  font-size: 1.6rem;
-  vertical-align: middle;
+  color: #a020f0;
 }
 
-/* Custom image icon (IITJ logo) same size */
+/* MAKE IITJ LOGO MATCH ICON COLOR */
 .iitj-icon {
-  height: 1.6rem;
-  width: auto;
-  vertical-align: middle;
+  filter: grayscale(100%) brightness(0) saturate(100%)
+          invert(18%) sepia(92%) saturate(746%)
+          hue-rotate(260deg);
 }
 
-/* Nice hover effect */
+/* HOVER EFFECT */
 .profile-icons a:hover {
-  transform: translateY(-2px);
-  opacity: 0.85;
-}
-  
+  transform: translateY(-3px);
+  opacity: 0.8;
 }
