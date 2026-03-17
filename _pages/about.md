@@ -5,7 +5,6 @@ permalink: /
 subtitle: "<a href='#'>School of AI and Data Science</a>. IIT Jodhpur. deeksha@iitj.ac.in. AI for Sustainable Impact."
 
 profile:
-  enabled: true 
   align: right
   image: /assets/img/profile.jpeg
   image_circular: false
