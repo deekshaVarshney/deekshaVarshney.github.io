@@ -42,4 +42,53 @@ $max-content-width: {{ site.max_width }};
     margin: 0;
     max-width: 100%;
   }
+
+/* ============================
+   Profile Footer (Under Photo)
+============================ */
+
+.profile-footer {
+  text-align: center;      /* center everything */
+  margin-top: 10px;
+}
+
+/* Name */
+.profile-name {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+}
+
+/* Title text */
+.profile-title {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+/* Icon container */
+.profile-icons a {
+  margin: 0 6px;
+  display: inline-block;
+}
+
+/* All font icons same size & bigger */
+.profile-icons i {
+  font-size: 1.6rem;
+  vertical-align: middle;
+}
+
+/* Custom image icon (IITJ logo) same size */
+.iitj-icon {
+  height: 1.6rem;
+  width: auto;
+  vertical-align: middle;
+}
+
+/* Nice hover effect */
+.profile-icons a:hover {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
+  
 }
