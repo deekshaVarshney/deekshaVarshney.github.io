@@ -28,9 +28,10 @@ $max-content-width: {{ site.max_width }};
    Custom About Page Styles
 ============================ */
 .about-text {
-  float: left;         /* Keep text on the left */
-  width: 60%;          /* Adjust so it doesn't wrap under image */
-  margin-right: 2rem;  /* Space between text and profile pic */
+  max-width: 900px;      /* keeps text from being too wide */
+  margin-left: 2rem;     /* shifts the text block slightly left */
+  margin-right: 0;       /* keeps right edge same as before */
+  line-height: 1.6;      /* better readability */
 }
 
 .profile-picture {
