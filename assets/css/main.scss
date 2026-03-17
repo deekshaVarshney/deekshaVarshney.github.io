@@ -25,21 +25,28 @@ $max-content-width: {{ site.max_width }};
 ;
 
 /* ============================
-   About Page — Faculty Style
+   Custom About Page Styles
 ============================ */
 
+/* Text block */
 .about-text {
-  max-width: 850px;   /* stops before photo */
+  max-width: 900px;      /* keeps readable width */
+  margin-left: 2rem;     /* slight left spacing */
+  margin-right: 320px;   /* ⭐ IMPORTANT — prevents text under photo */
   line-height: 1.6;
 }
 
-/* Move whole content slightly left */
-.page-content .post {
-  max-width: 1100px;
-  margin-left: 2rem;   /* adjust as needed */
+/* DO NOT float the image — theme handles it */
+.profile-picture {
+  width: 30%;
+  max-width: 200px;
 }
 
-/* Prevent text from going under profile photo */
-.profile {
-  margin-left: 2rem;
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .about-text {
+    margin: 0;
+    max-width: 100%;
+    text-align: left;
+  }
 }
