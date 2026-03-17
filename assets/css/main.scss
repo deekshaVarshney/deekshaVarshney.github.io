@@ -25,28 +25,21 @@ $max-content-width: {{ site.max_width }};
 ;
 
 /* ============================
-   Custom About Page Styles
+   About Page — No Text Under Photo
 ============================ */
 
-/* Text block */
+/* Make text respect the floated profile image */
 .about-text {
-  max-width: 900px;      /* keeps readable width */
-  margin-left: 2rem;     /* slight left spacing */
-  margin-right: 320px;   /* ⭐ IMPORTANT — prevents text under photo */
+  overflow: auto;     /* ⭐ KEY FIX */
+  max-width: 900px;
+  margin-left: 2rem;
   line-height: 1.6;
 }
 
-/* DO NOT float the image — theme handles it */
-.profile-picture {
-  width: 30%;
-  max-width: 200px;
-}
-
-/* Mobile responsive */
+/* Mobile */
 @media (max-width: 768px) {
   .about-text {
     margin: 0;
     max-width: 100%;
-    text-align: left;
   }
 }
