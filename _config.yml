@@ -3,11 +3,6 @@ first_name: Deeksha
 middle_name: ""
 last_name: Varshney
 
-profile:
-  align: right
-  image: profile.jpeg
-  image_circular: false
-  more_info:
 contact_note: ""
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
