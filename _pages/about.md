@@ -9,23 +9,26 @@ profile:
   image: profile.jpeg
   image_circular: false
   more_info: |
-    <p><b>Deeksha Varshney</b></p>
-    <p>
-      Assistant Professor<br>
-      School of AI & Data Science<br>
-      IIT Jodhpur, India
-    </p>
+    <div class="profile-footer">
+      <p class="profile-name">Deeksha Varshney</p>
 
-    <p>
-      <a href="mailto:deeksha@iitj.ac.in"><i class="fas fa-envelope"></i></a>
-      <a href="/assets/pdf/example_pdf.pdf"><i class="fas fa-file-pdf"></i></a>
-      <a href="https://github.com/deekshaVarshney"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/deeksha-varshney-5922b57b"><i class="fab fa-linkedin"></i></a>
-      <a href="https://scholar.google.com/citations?user=a6T1uIUAAAAJ"><i class="fas fa-graduation-cap"></i></a>
-      <a href="https://www.iitj.ac.in/People/List?dept=school-of-artificial-intelligence-data-science&c=ce26246f-00c9-4286-bb4c-7f023b4c5460">
-        <img src="/assets/img/iitjlogo.jpg" style="height:20px; vertical-align:middle;">
-      </a>
-    </p>
+      <p class="profile-title">
+        Assistant Professor<br>
+        School of AI & Data Science<br>
+        IIT Jodhpur, India
+      </p>
+
+      <div class="profile-icons">
+        <a href="mailto:deeksha@iitj.ac.in"><i class="fas fa-envelope"></i></a>
+        <a href="/assets/pdf/example_pdf.pdf"><i class="fas fa-file-pdf"></i></a>
+        <a href="https://github.com/deekshaVarshney"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/deeksha-varshney-5922b57b"><i class="fab fa-linkedin"></i></a>
+        <a href="https://scholar.google.com/citations?user=a6T1uIUAAAAJ"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://www.iitj.ac.in/People/...">
+          <img src="/assets/img/iitjlogo.jpg" class="iitj-icon">
+        </a>
+      </div>
+    </div>
  
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
