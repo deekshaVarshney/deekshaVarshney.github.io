@@ -52,5 +52,17 @@
 
     <!-- JavaScripts -->
     {% include scripts.liquid %}
+<script>
+window.addEventListener("load", function () {
+  if (window.location.hash) {
+    const el = document.querySelector(window.location.hash);
+    if (el) {
+      setTimeout(() => {
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 500); // delay ensures layout finished
+    }
+  }
+});
+</script>
   </body>
 </html>
