@@ -107,3 +107,6 @@ $max-content-width: {{ site.max_width }};
   transform: translateY(-3px);
   opacity: 0.8;
 }
+html {
+  scroll-behavior: smooth;
+}
