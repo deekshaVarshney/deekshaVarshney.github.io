@@ -6,7 +6,7 @@ related_posts: false
 ---
 
 Our work <b>
-<a href="/publications/#varshney2025proteinsecondarystructureprediction">
+<a href="{{ '/publications/#varshney2025proteinsecondarystructureprediction' | relative_url }}">
 Protein Secondary Structure Prediction Using 3D Graphs and Relation-Aware Message Passing Transformers
 </a>
 </b> is now available on 
