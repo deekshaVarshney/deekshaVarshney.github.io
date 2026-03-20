@@ -6,8 +6,8 @@ related_posts: false
 ---
 
 Our work <b>
-<a href="/publications/#garg2025conceptbasedinterpretabilitytoxicitydetection">
-Concept-Based Interpretability for Toxicity Detection
+<a href="/publications/#varshney2025proteinsecondarystructureprediction">
+Protein Secondary Structure Prediction Using 3D Graphs and Relation-Aware Message Passing Transformers
 </a>
 </b> is now available on 
 <a href="https://arxiv.org/abs/2511.16689">arXiv</a>.
