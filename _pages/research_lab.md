@@ -10,5 +10,5 @@ nav_order: 1
   {% for project in site.projects %}
     {% include archive-single.html %}
   {% endfor %}
-</div>
+</div>    
  
