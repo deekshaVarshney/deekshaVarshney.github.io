@@ -110,3 +110,6 @@ $max-content-width: {{ site.max_width }};
 html {
   scroll-behavior: smooth;
 }
+.publication {
+  scroll-margin-top: 120px;
+}
