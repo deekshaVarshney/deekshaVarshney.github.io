@@ -6,5 +6,9 @@ nav: true
 nav_order: 1
 ---
 
-Your research lab content here.
+<div class="projects">
+  {% for project in site.projects %}
+    {% include archive-single.html %}
+  {% endfor %}
+</div>
 
