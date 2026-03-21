@@ -12,6 +12,6 @@ nav_order: 1
       {% include projects.html %}
     {% endfor %}
   {% endif %}
-</div>
+</div>    
     
   
