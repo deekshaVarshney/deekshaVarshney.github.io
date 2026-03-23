@@ -10,5 +10,5 @@ Our paper <b>
 EMPOWER-KARE: Deep Prompt Learning for Knowledge-aware Response Generation in Clinical Counseling and Legal Support Conversations
 </a>
 </b> has been accepted in IEEE Transactions on Artificial Intelligence.  
-<a href="https://ieeexplore.ieee.org/abstract/document/10910093">Paper</a>.  
+<a href="https://ieeexplore.ieee.org/document/10910093">Paper</a>.  
 (P. Priya, A. M. Tripathi, D. Varshney, M. Firdaus, A. Ekbal)
