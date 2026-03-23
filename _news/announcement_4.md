@@ -6,7 +6,7 @@ related_posts: false
 ---
 
 Our paper <b>
-<a href="/publications/#ong2025derivingstrategicmarketinsights" data-no-turbo="true">
+<a href="https://deekshaVarshney.github.io/publications/#ong2025derivingstrategicmarketinsights" data-no-turbo="true">
 Deriving Strategic Market Insights with Large Language Models: A Benchmark for Forward Counterfactual Generation
 </a>
 </b> has been accepted at EMNLP 2025.  
