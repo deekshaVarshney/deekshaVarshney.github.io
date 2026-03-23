@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Joined as Assistant Professor at the School of Artificial Intelligence and Data Science (SAIDE), Indian Institute of Technology Jodhpur (IIT Jodhpur), Rajasthan, India.
+Joined as Assistant Professor at the School of Artificial Intelligence and Data Science (SAIDE),  
+Indian Institute of Technology Jodhpur (IIT Jodhpur), Rajasthan, India.
