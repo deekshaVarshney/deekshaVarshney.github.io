@@ -7,7 +7,7 @@ related_posts: false
 
 
 Our paper <b>
-<a href="/publications/#10910093" data-no-turbo="true">
+<a href="https://deekshaVarshney.github.io/publications/#10910093" data-no-turbo="true">
 EMPOWER-KARE: Deep Prompt Learning for Knowledge-aware Response Generation in Clinical Counseling and Legal Support Conversations
 </a>
 </b> has been accepted in IEEE Transactions on Artificial Intelligence.  
