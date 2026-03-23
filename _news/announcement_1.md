@@ -9,5 +9,6 @@ Our work <b>
 <a href="/publications/#garg2025conceptbasedinterpretability">
 Concept-Based Interpretability for Toxicity Detection
 </a>
-</b> is now available on arXiv.  
+</b> is now available on 
+<a href="PUT_ARXIV_LINK_HERE">arXiv</a>.  
 (S. Garg, D. Singh, D. Varshney, Mamta)
