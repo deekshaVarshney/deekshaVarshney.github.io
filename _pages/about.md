@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-
+subtitle: ""
 
 profile:
   align: right
@@ -11,14 +11,11 @@ profile:
   more_info: |
     <div class="profile-footer">
       <p class="profile-name">Deeksha Varshney</p>
-
-
       <p class="profile-title">
         Assistant Professor<br>
         School of AI & Data Science<br>
         IIT Jodhpur, India
       </p>
-
       <div class="profile-icons">
         <a href="mailto:deeksha@iitj.ac.in"><i class="fas fa-envelope"></i></a>
         <a href="/assets/pdf/example_pdf.pdf"><i class="fas fa-file-pdf"></i></a>
@@ -30,80 +27,49 @@ profile:
         </a>
       </div>
     </div>
- 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
 <div class="about-text">
 
 <p>
-I am an <i>Assistant Professor</i> at the 
-<span style="color:#6a1b9a;"><b>School of Artificial Intelligence and Data Science (SAIDE)</b></span>, 
-<span style="color:#6a1b9a;"><b>Indian Institute of Technology Jodhpur (IIT Jodhpur)</b></span>, Rajasthan, India. 
-I lead the <span style="color:#6a1b9a;"><b>ADHRI-NLP Lab</b></span> (AI for Development on Human Reasoning and Impact), 
-where we work on cutting-edge problems in <b>Natural Language Processing</b> and 
-<span style="color:#2e7d32;"><b>AI for Sustainable Impact</b></span>.
+I am an <i>Assistant Professor</i> at the <span style="color:#2e7d32;"><b>School of Artificial Intelligence and Data Science (SAIDE), Indian Institute of Technology Jodhpur (IIT Jodhpur)</b></span>, Rajasthan, India. I lead the <span style="color:#c62828;"><b>ADHRI-NLP Lab</b></span> (AI for Development on Human Reasoning and Impact) where we work on cutting-edge problems in Natural Language Processing and AI for Sustainable Impact. I earned my Ph.D. from Indian Institute of Technology Patna, India in 2023. I am grateful to have <a href="https://ekbalasif.github.io/" target="_blank" rel="noopener" style="color:#1a73e8;"><b>Prof. Asif Ekbal</b></a> as my Ph.D. supervisor. My doctoral research focused on Enhancing Dialogue Generation Models using Multi-source Heterogeneous Information.
 </p>
 
 <p>
-I earned my Ph.D. from <b>IIT Patna</b> in 2023. I am grateful to have 
-<a href="https://ekbalasif.github.io/" target="_blank" style="color:#1a73e8;"><b>Prof. Asif Ekbal</b></a> 
-as my Ph.D. supervisor. My doctoral research focused on enhancing dialogue generation models using multi-source heterogeneous information.
+Prior to joining IIT Jodhpur, I worked as a <span style="color:#2e7d32;"><b>Research Fellow at the National University of Singapore (NUS)</b></span> under <a href="https://www.mathexlab.com/team" target="_blank" rel="noopener" style="color:#1a73e8;">Prof. Gianmarco Mengaldo</a>, focusing on Climate NLP and Sustainable Finance.
 </p>
 
 <p>
-Prior to joining IIT Jodhpur, I worked as a 
-<span style="color:#6a1b9a;"><b>Research Fellow at NUS</b></span> under 
-<a href="https://www.mathexlab.com/team" target="_blank" style="color:#1a73e8;">Prof. Gianmarco Mengaldo</a>, 
-focusing on Climate NLP and Sustainable Finance.
+I am currently actively working on building <b>Interpretable Models</b>, where I am exploring Latent Subspace Geometry and Optimization to uncover the internal "architecture of ideas" within Large Language Models. Through the lens of <b>Mechanistic Interpretability</b>, I investigate how high-dimensional activations are structured geometrically, moving beyond traditional assumptions to explore whether neural representations form complex, non-linear manifolds. To address the resulting vulnerabilities, I am exploring the frontier of <b>Latent Space Reasoning</b>, a paradigm that moves beyond traditional text-based Chain-of-Thought (CoT) by investigating how models perform multi-step inference as continuous trajectories or discrete tokens within a Latent Manifold. This approach allows us to study a "pure" form of reasoning that bypasses the constraints of natural language syntax, which we can leverage for <b>LLM Hallucination Detection and Mitigation</b> and to develop surgical <b>Trustworthy AI</b> interventions. By applying Representation Engineering, I am currently working to reverse-engineer internal structures like "refusal directions" and specific "safety neurons" to strengthen model guardrails against harmful content, such as for Misogynistic content, at the representation level.
 </p>
 
 <p>
-I am currently working on <span style="color:#d32f2f;"><b>Mechanistic Interpretability</b></span>, exploring 
-<b>latent subspace geometry</b> and <b>optimization</b> to understand how ideas are structured inside Large Language Models.
-I investigate whether neural representations form complex, non-linear manifolds beyond traditional assumptions.
+Recognizing the unique needs of a linguistically diverse country like India, which encompasses over 22 official languages, I am dedicated to compressing and refining these sophisticated reasoning and safety mechanisms into compact <b>Multilingual Language Models and Small Language Models (SLMs)</b>. I am utilizing efficiency-driven techniques like Layer Pruning and Knowledge Distillation to ensure these models remain resource-efficient without sacrificing performance. My focus is on creating high-performance tools that enable the development of localized NLP products for <b>NLP in Education, Healthcare, and Climate</b>, that are small enough to be accessible while remaining smart enough to be trusted by diverse communities worldwide.
 </p>
 
 <p>
-To address vulnerabilities, I explore <span style="color:#d32f2f;"><b>Latent Space Reasoning</b></span>, 
-a paradigm beyond Chain-of-Thought, where reasoning is modeled as trajectories in latent space. 
-This helps in <b>hallucination detection</b> and building <b>Trustworthy AI systems</b>.
+My research further extends to <b>Multimodal Data Fusion</b> for the Healthcare domain, where I integrate diverse modalities such as Electronic Health Records (EHR) and Medical Imaging to build more comprehensive diagnostic systems. I am also developing robust <b>Edge AI Models</b> for specialized, high-stakes applications, including <b>Anomaly Detection in Surveillance Videos</b> and resource-efficient <b>NLP solutions for Sustainability</b>.
 </p>
 
 <p>
-Using <span style="color:#d32f2f;"><b>Representation Engineering</b></span>, I work on identifying 
-<b>safety neurons</b> and <b>refusal directions</b> to strengthen AI guardrails against harmful content.
-</p>
-
-<p>
-I focus on building <span style="color:#2e7d32;"><b>Multilingual and Small Language Models (SLMs)</b></span> 
-for India using techniques like <b>layer pruning</b> and <b>knowledge distillation</b>, ensuring efficiency without performance loss.
-</p>
-
-<p>
-My work also includes <span style="color:#6a1b9a;"><b>Multimodal Healthcare AI</b></span> 
-(EHR + medical imaging) and <span style="color:#6a1b9a;"><b>Edge AI systems</b></span> 
-for applications like surveillance anomaly detection and sustainability.
-</p>
-
-<p>
-Through my research lab at IIT Jodhpur, we build robust, interpretable, and socially impactful AI systems across multilingual settings.
+Through my <a href="/research-lab" style="color:#1a73e8;"><b>Research Lab</b></a> at IIT Jodhpur, my group actively works on building robust, interpretable, and socially impactful AI systems across multilingual and multi-domain settings.
 </p>
 
 <p style="color:red; font-weight:600;">
-I am actively looking for motivated students (Ph.D., Research Associates, Interns). 
-Please feel free to <a href="mailto:deeksha@iitj.ac.in" style="color:#1a73e8;">email me</a> with a statement of purpose.
+I am actively looking for motivated students interested in joining my group as Ph.D. scholars, Research associates and Interns at IIT Jodhpur. Please feel free to <a href="mailto:deeksha@iitj.ac.in" target="_blank" rel="noopener" style="color:#1a73e8;">email</a> me, with a statement of purpose.
 </p>
 
 </div>
