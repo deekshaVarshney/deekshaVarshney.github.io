@@ -4,8 +4,6 @@ permalink: /research_lab/
 title: Research lab
 nav: true
 nav_order: 1
-display_categories: [work, fun]
-horizontal: false
 ---
 
 ## Welcome to the ADHRI-NLP Lab!
@@ -24,14 +22,3 @@ At the ADHRI-NLP Lab, our team consists of PhD scholars, M.Tech students, and en
 Through our work, we hope to contribute to cutting-edge research, practical applications, and responsible innovation in artificial intelligence and natural language processing.
 
 Thank you for visiting our lab and learning more about our research.
-
----
-
-<div class="projects">
-  {% assign sorted_projects = site.projects | sort: "importance" %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-</div>
