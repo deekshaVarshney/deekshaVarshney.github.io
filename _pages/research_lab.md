@@ -4,6 +4,7 @@ permalink: /research_lab/
 title: Research lab
 nav: true
 nav_order: 1
+hide_title: true
 ---
 
 ## Welcome to the ADHRI-NLP Lab!
