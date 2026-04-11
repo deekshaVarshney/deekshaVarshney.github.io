@@ -69,7 +69,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-work-climaempact-domain-aligned-small-language-models-and-datasets-for-extreme-weather-analytics-is-now-available-on-arxiv-d-varshney-k-ong-r-mao-e-cambria-g-mengaldo",
           title: 'Our work “ClimaEmpact: Domain-Aligned Small Language Models and Datasets for Extreme Weather Analytics”...',
           description: "",
-          section: "News",},{id: "news-our-paper-empower-kare-deep-prompt-learning-for-knowledge-aware-response-generation-in-clinical-counseling-and-legal-support-conversations-has-been-accepted-in-ieee-transactions-on-artificial-intelligence-p-priya-a-m-tripathi-d-varshney-m-firdaus-a-ekbal",
+          section: "News",},{id: "news-our-paper-empower-kare-deep-prompt-learning-for-knowledge-aware-response-generation-in-clinical-counseling-and-legal-support-conversations-has-been-accepted-in-ieee-transactions-on-artificial-intelligence-p-priya-a-m-tripathi-d-varshney-m-firdaus-a-ekbal-check-it-out-on-ieee-xplore",
           title: 'Our paper EMPOWER-KARE: Deep Prompt Learning for Knowledge-aware Response Generation in Clinical Counseling...',
           description: "",
           section: "News",},{id: "news-joined-as-assistant-professor-at-the-school-of-artificial-intelligence-and-data-science-saide-indian-institute-of-technology-jodhpur-iit-jodhpur-rajasthan-india",
