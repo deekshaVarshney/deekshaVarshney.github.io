@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "<a href='#'>School of AI and Data Science</a>. IIT Jodhpur. deeksha@iitj.ac.in. AI for Sustainable Impact."
+
 
 profile:
   align: right
@@ -46,28 +46,64 @@ latest_posts:
 ---
 
 <div class="about-text">
-  <p>
-    I am an <i>Assistant Professor</i> at the 
-    <span style="color:#2e7d32;"><b>School of Artificial Intelligence and Data Science (SAIDE)</b></span>, 
-    <span style="color:#2e7d32;"><b>Indian Institute of Technology Jodhpur (IIT Jodhpur)</b></span>, Rajasthan, India. 
-    I lead the <span style="color:#2e7d32;"><b>ADHRI (AI for Development on Human Reasoning and Impact) NLP Lab</b></span>, where we work on cutting-edge problems in Natural Language Processing and AI for Social Good. 
-    I earned my Ph.D. from Indian Institute of Technology Patna, India in 2023 and am grateful to have <a href="https://ekbalasif.github.io/" target="_blank" rel="noopener" style="color:#1a73e8;"><b>Prof. Asif Ekbal</b></a> as my supervisor. My doctoral research focused on enhancing dialogue generation models using multi-source heterogeneous information.
-  </p>
 
-  <p>
-    Prior to joining IIT Jodhpur, I worked as a <span style="color:#2e7d32;"><b>Research Fellow at the National University of Singapore (NUS)</b></span> under <a href="https://www.mathexlab.com/team" target="_blank" rel="noopener" style="color:#1a73e8;">Prof. Gianmarco Mengaldo</a>, focusing on Climate NLP and Sustainable Finance.
-  </p>
+<p>
+I am an <i>Assistant Professor</i> at the 
+<span style="color:#6a1b9a;"><b>School of Artificial Intelligence and Data Science (SAIDE)</b></span>, 
+<span style="color:#6a1b9a;"><b>Indian Institute of Technology Jodhpur (IIT Jodhpur)</b></span>, Rajasthan, India. 
+I lead the <span style="color:#6a1b9a;"><b>ADHRI-NLP Lab</b></span> (AI for Development on Human Reasoning and Impact), 
+where we work on cutting-edge problems in <b>Natural Language Processing</b> and 
+<span style="color:#2e7d32;"><b>AI for Sustainable Impact</b></span>.
+</p>
 
-  <p>
-    My primary research interests lie in Natural Language Processing (NLP), with emphasis on <i>Trustworthy AI, Reasoning and Interpretability, and building SLMs and Multilingual Language Models</i>. 
-    I mainly focus on Indian scenarios, such as multilinguality and technology-driven waste management.
-  </p>
+<p>
+I earned my Ph.D. from <b>IIT Patna</b> in 2023. I am grateful to have 
+<a href="https://ekbalasif.github.io/" target="_blank" style="color:#1a73e8;"><b>Prof. Asif Ekbal</b></a> 
+as my Ph.D. supervisor. My doctoral research focused on enhancing dialogue generation models using multi-source heterogeneous information.
+</p>
 
-  <p>
-    My recent work also extends to NLP for Healthcare, Climate AI, and Sustainable Finance. Through the Adhri NLP Lab at IIT Jodhpur, my group actively works on building robust, interpretable, and socially impactful AI systems across multilingual and multi-domain settings.
-  </p>
+<p>
+Prior to joining IIT Jodhpur, I worked as a 
+<span style="color:#6a1b9a;"><b>Research Fellow at NUS</b></span> under 
+<a href="https://www.mathexlab.com/team" target="_blank" style="color:#1a73e8;">Prof. Gianmarco Mengaldo</a>, 
+focusing on Climate NLP and Sustainable Finance.
+</p>
 
-  <p style="color:red; font-weight:600;">
-    I am actively looking for motivated students interested in joining my group as Interns or Ph.D. scholars at IIT Jodhpur. Please feel free to <a href="mailto:deeksha@iitj.ac.in" target="_blank" rel="noopener" style="color:#1a73e8;">email</a> me with a statement of purpose.
-  </p>
+<p>
+I am currently working on <span style="color:#d32f2f;"><b>Mechanistic Interpretability</b></span>, exploring 
+<b>latent subspace geometry</b> and <b>optimization</b> to understand how ideas are structured inside Large Language Models.
+I investigate whether neural representations form complex, non-linear manifolds beyond traditional assumptions.
+</p>
+
+<p>
+To address vulnerabilities, I explore <span style="color:#d32f2f;"><b>Latent Space Reasoning</b></span>, 
+a paradigm beyond Chain-of-Thought, where reasoning is modeled as trajectories in latent space. 
+This helps in <b>hallucination detection</b> and building <b>Trustworthy AI systems</b>.
+</p>
+
+<p>
+Using <span style="color:#d32f2f;"><b>Representation Engineering</b></span>, I work on identifying 
+<b>safety neurons</b> and <b>refusal directions</b> to strengthen AI guardrails against harmful content.
+</p>
+
+<p>
+I focus on building <span style="color:#2e7d32;"><b>Multilingual and Small Language Models (SLMs)</b></span> 
+for India using techniques like <b>layer pruning</b> and <b>knowledge distillation</b>, ensuring efficiency without performance loss.
+</p>
+
+<p>
+My work also includes <span style="color:#6a1b9a;"><b>Multimodal Healthcare AI</b></span> 
+(EHR + medical imaging) and <span style="color:#6a1b9a;"><b>Edge AI systems</b></span> 
+for applications like surveillance anomaly detection and sustainability.
+</p>
+
+<p>
+Through my research lab at IIT Jodhpur, we build robust, interpretable, and socially impactful AI systems across multilingual settings.
+</p>
+
+<p style="color:red; font-weight:600;">
+I am actively looking for motivated students (Ph.D., Research Associates, Interns). 
+Please feel free to <a href="mailto:deeksha@iitj.ac.in" style="color:#1a73e8;">email me</a> with a statement of purpose.
+</p>
+
 </div>
