@@ -14,7 +14,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/research%20lab/";
+            window.location.href = "/research_lab/";
           },
         },{id: "nav-publications",
           title: "Publications",
@@ -36,13 +36,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
-          },
-        },{id: "nav-projects",
-          title: "Projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
           },
         },{id: "nav-cv",
           title: "CV",
@@ -78,8 +71,8 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-deriving-strategic-market-insights-with-large-language-models-a-benchmark-for-forward-counterfactual-generation-has-been-accepted-at-emnlp-2025-k-ong-r-mao-d-varshney-p-p-liang-e-cambria-g-mengaldo",
           title: 'Our paper Deriving Strategic Market Insights with Large Language Models: A Benchmark for...',
           description: "",
-          section: "News",},{id: "news-our-work-protein-secondary-structure-prediction-using-3d-graphs-and-relation-aware-message-passing-transformers-is-now-available-on-arxiv-s-garg-d-singh-d-varshney-mamta",
-          title: 'Our work Protein Secondary Structure Prediction Using 3D Graphs and Relation-Aware Message Passing...',
+          section: "News",},{id: "news-our-work-concept-based-interpretability-for-toxicity-detection-is-now-available-on-arxiv-s-garg-d-singh-d-varshney-mamta",
+          title: 'Our work Concept-Based Interpretability for Toxicity Detection is now available on arXiv. (S....',
           description: "",
           section: "News",},{id: "news-our-work-protein-secondary-structure-prediction-using-3d-graphs-and-relation-aware-message-passing-transformers-is-now-available-on-arxiv-d-varshney-s-garg-s-tyagi-d-varshney-n-deep-a-ekbal",
           title: 'Our work Protein Secondary Structure Prediction Using 3D Graphs and Relation-Aware Message Passing...',
@@ -138,7 +131,7 @@ ninja.data = [{
           title: 'Research lab',
           description: "",
           section: "Pages",handler: () => {
-              window.location.href = "/research%20lab/";
+              window.location.href = "/research_lab/";
             },},{id: "pages-teaching",
           title: 'Teaching',
           description: "",
