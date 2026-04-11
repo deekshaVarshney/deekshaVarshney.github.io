@@ -7,14 +7,42 @@ nav: true
 nav_order: 3
 ---
 
-CSL7610 – Artificial Intelligence
-Ph.D. & M.Tech Programme (July 2025 – December 2025), IIT Jodhpur, India
+<style>
+.teaching-item {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
 
-AIL7390 – Deep Learning for Natural Language Processing
-Ph.D., M.Tech & B.Tech Programme, IIT Jodhpur, India
+.teaching-date {
+  color: red;
+  font-weight: 500;
+}
 
-AIL7260 – Foundations of Vision and Langauge 
-MTech PhD, Btech Programme, IIT Jodhpur, India
+.teaching-course {
+  font-weight: bold;
+}
+</style>
 
-Machine learning I – 
-B.S./B.Sc. in Applied AI and Data Science(Online Programme), IIT Jodhpur, India
+<div class="teaching-item">
+➔ <span class="teaching-date">[July 2025 – December 2025]</span>: 
+<span class="teaching-course">CSL7610 – Artificial Intelligence</span> 
+(Ph.D. & M.Tech, IIT Jodhpur)
+</div>
+
+<div class="teaching-item">
+➔ <span class="teaching-date">[July 2025 – December 2025]</span>: 
+<span class="teaching-course">AIL7260 – Foundations of Vision and Language</span> 
+(Ph.D., M.Tech & B.Tech, IIT Jodhpur)
+</div>
+
+<div class="teaching-item">
+➔ <span class="teaching-date">[January 2026 – April 2026]</span>: 
+<span class="teaching-course">AIL7390 – Deep Learning for Natural Language Processing</span> 
+(Ph.D., M.Tech & B.Tech, IIT Jodhpur)
+</div>
+
+<div class="teaching-item">
+➔ <span class="teaching-date">[January 2026 – April 2026]</span>: 
+<span class="teaching-course">Machine Learning I</span> 
+(B.S./B.Sc. in Applied AI and Data Science (Online Programme), IIT Jodhpur)
+</div>
