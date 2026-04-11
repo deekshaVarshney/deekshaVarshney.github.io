@@ -4,8 +4,11 @@ permalink: /research_lab/
 title: Research lab
 nav: true
 nav_order: 1
-hide_title: true
 ---
+
+<style>
+  .post-title { display: none !important; }
+</style>
 
 ## Welcome to the ADHRI-NLP Lab!
 
