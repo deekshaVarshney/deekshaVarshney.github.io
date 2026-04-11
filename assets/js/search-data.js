@@ -63,10 +63,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-towards-robust-esg-analysis-against-greenwashing-risks-aspect-action-analysis-with-cross-category-generalization-has-been-accepted-at-acl-2025-k-ong-r-mao-d-varshney-e-cambria-g-mengaldo",
-          title: 'Our paper “Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category...',
-          description: "",
-          section: "News",},{id: "news-our-paper-empower-kare-deep-prompt-learning-for-knowledge-aware-response-generation-in-clinical-counseling-and-legal-support-conversations-has-been-accepted-in-ieee-transactions-on-artificial-intelligence-p-priya-a-m-tripathi-d-varshney-m-firdaus-a-ekbal-check-it-out-on-ieee-xplore",
+            },},{id: "news-our-paper-empower-kare-deep-prompt-learning-for-knowledge-aware-response-generation-in-clinical-counseling-and-legal-support-conversations-has-been-accepted-in-ieee-transactions-on-artificial-intelligence-p-priya-a-m-tripathi-d-varshney-m-firdaus-a-ekbal-check-it-out-on-ieee-xplore",
           title: 'Our paper EMPOWER-KARE: Deep Prompt Learning for Knowledge-aware Response Generation in Clinical Counseling...',
           description: "",
           section: "News",},{id: "news-joined-as-assistant-professor-at-the-school-of-artificial-intelligence-and-data-science-saide-indian-institute-of-technology-jodhpur-iit-jodhpur-rajasthan-india",
