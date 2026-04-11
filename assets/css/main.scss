@@ -114,6 +114,11 @@ $max-content-width: {{ site.max_width }};
    Smooth Scrolling for News Links
 ============================ */
 
+/* Fix for links scrolling under the top navigation bar */
+.publications ol.bibliography li {
+  scroll-margin-top: 100px; /* Adjust this value if your navbar is taller/shorter */
+}
+
 html {
   scroll-behavior: smooth;
 }
