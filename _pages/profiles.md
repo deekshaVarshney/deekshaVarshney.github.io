@@ -150,17 +150,17 @@ function toggleDesc(btn){
     Researching AI-driven clinical decision systems for Pulmonary Embolism detection using LLMs and knowledge graphs.
   </div></div>
 
-  <div class="person-row"><div class="person-header"><div class="person-name">Veekshan</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
+  <div class="person-row"><div class="person-header"><div class="person-name">Veekshan Arroju</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
 
-  <div class="person-row"><div class="person-header"><div class="person-name">Kashmeera</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
+  <div class="person-row"><div class="person-header"><div class="person-name">Kashmeera K S</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
 
-  <div class="person-row"><div class="person-header"><div class="person-name">Shumbham</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
+  <div class="person-row"><div class="person-header"><div class="person-name">Shumbham Sharma</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
 
-  <div class="person-row"><div class="person-header"><div class="person-name">Anshul</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
+  <div class="person-row"><div class="person-header"><div class="person-name">Anshul Kumar</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
 
-  <div class="person-row"><div class="person-header"><div class="person-name">Neha</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
+  <div class="person-row"><div class="person-header"><div class="person-name">Neha Prasad</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
 
-  <div class="person-row"><div class="person-header"><div class="person-name">Netaji</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
+  <div class="person-row"><div class="person-header"><div class="person-name">Kancharapu Netaji</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
 
 </div>
 
@@ -174,6 +174,8 @@ function toggleDesc(btn){
 
   <div class="person-row"><div class="person-name">Kolapkar Vipul Kishor</div></div>
   <div class="person-row"><div class="person-name">Kartik Jain</div></div>
+  <div class="person-row"><div class="person-name">Himanshu</div></div>
+  <div class="person-row"><div class="person-name">Vivek</div></div>
   <div class="person-row"><div class="person-name">Shreehitha Talari</div></div>
   <div class="person-row"><div class="person-name">Lagudu Pooja Rani</div></div>
   <div class="person-row"><div class="person-name">Jangili Mahalaxmi</div></div>
