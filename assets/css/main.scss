@@ -29,10 +29,11 @@ $max-content-width: {{ site.max_width }};
 ============================ */
 
 .about-text {
-
   overflow: auto;
   max-width: 100%;
   margin-left: 0;
+  padding-left: 5rem;
+  padding-right: 5rem;
   line-height: 1.6;
 }
 
