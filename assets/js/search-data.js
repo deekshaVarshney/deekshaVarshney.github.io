@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -121,7 +121,7 @@ ninja.data = [{
               window.location.href = "/people/";
             },},{id: "pages-projects",
           title: 'Projects',
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Pages",handler: () => {
               window.location.href = "/projects/";
             },},{id: "pages-publications",
