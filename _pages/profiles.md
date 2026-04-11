@@ -7,231 +7,195 @@ nav_order: 4
 ---
 
 <style>
-.people-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
-  gap:30px;
-  margin-top:25px;
+.section-btn{
+  display:block;
+  width:100%;
+  text-align:left;
+  font-size:22px;
+  font-weight:600;
+  padding:12px 0;
+  border:none;
+  background:none;
+  cursor:pointer;
+  border-bottom:1px solid #ddd;
 }
 
-.person{
+.section-content{
+  display:none;
+  padding:15px 0;
+}
+
+.people-list{
+  margin-top:10px;
+  padding-left:10px;
+}
+
+.people-list div{
+  margin:6px 0;
+  font-size:15px;
+}
+
+/* Saikat */
+.person-highlight{
   text-align:center;
+  margin:20px 0;
 }
 
-.person img{
-  width:130px;
-  height:130px;
+.person-highlight img{
+  width:140px;
+  height:140px;
   border-radius:50%;
   object-fit:cover;
   border:3px solid #eee;
-  display:block;
-  margin:0 auto;
 }
 
 .person-name{
   margin-top:10px;
-  font-size:15px;
-  font-weight:500;
+  font-size:18px;
+  font-weight:600;
 }
 
-.person-topic{
+.person-desc{
   display:none;
-  margin-top:5px;
-  font-size:11px;
-  color:#555;
-  font-style:italic;
-  padding:4px 6px;
-  background:#f5f5f5;
-  border-radius:6px;
-  line-height:1.4;
-}
-
-.person-scopus{
-  display:none;
-  margin-top:4px;
-  font-size:11px;
-}
-
-.person-scopus a{
-  color:#1a73e8;
-  text-decoration:none;
-}
-
-.person-scopus a:hover{
-  text-decoration:underline;
-}
-
-.topic-toggle{
-  margin-top:6px;
-  font-size:11px;
-  background:none;
-  border:1px solid #aaa;
-  border-radius:10px;
-  padding:2px 8px;
-  cursor:pointer;
-  color:#555;
-  display:block;
+  margin-top:10px;
+  font-size:14px;
+  color:#444;
+  max-width:500px;
   margin-left:auto;
   margin-right:auto;
-  font-family:inherit;
 }
 
-.topic-toggle:hover{
-  background:#f0f0f0;
+.toggle-btn{
+  margin-top:8px;
+  font-size:13px;
+  border:1px solid #aaa;
+  border-radius:12px;
+  padding:4px 10px;
+  background:none;
+  cursor:pointer;
 }
 
-@media (max-width:768px){
-  .people-grid{
-    grid-template-columns:repeat(2,1fr);
+/* Avni */
+.person-card{
+  border:1px solid #eee;
+  padding:12px;
+  border-radius:10px;
+  margin-top:10px;
+  background:#fafafa;
+}
+
+.person-card-title{
+  font-weight:600;
+  font-size:16px;
+}
+
+.person-card-desc{
+  display:none;
+  margin-top:6px;
+  font-size:13px;
+  color:#444;
+}
+
+/* Mobile */
+@media(max-width:768px){
+  .section-btn{
+    font-size:18px;
   }
-  .person img{
-    width:100px;
-    height:100px;
+  .person-highlight img{
+    width:110px;
+    height:110px;
   }
 }
 </style>
 
 <script>
-function toggleTopic(btn) {
-  var person = btn.closest('.person');
-  var topic = person.querySelector('.person-topic');
-  var scopus = person.querySelector('.person-scopus');
-  var isOpen = topic.style.display === 'block';
-  topic.style.display = isOpen ? 'none' : 'block';
-  if (scopus) scopus.style.display = isOpen ? 'none' : 'block';
-  var label = btn.getAttribute('data-label');
-  btn.textContent = label + (isOpen ? ' ▾' : ' ▴');
+function toggleSection(id){
+  let el = document.getElementById(id);
+  el.style.display = (el.style.display === "block") ? "none" : "block";
+}
+
+function toggleDesc(btn){
+  let desc = btn.nextElementSibling;
+  let isOpen = desc.style.display === "block";
+  desc.style.display = isOpen ? "none" : "block";
+  btn.textContent = isOpen ? "Show Details ▾" : "Hide Details ▴";
 }
 </script>
 
+<!-- PHD -->
+<button class="section-btn" onclick="toggleSection('phd')">PhD</button>
+<div id="phd" class="section-content">
 
-# PhD
-
-### Current Students
-*Indian Institute of Technology Jodhpur, India*
-
-<div class="people-grid">
-
-<div class="person">
-  <img src="{{ site.baseurl }}/assets/img/saikat.jpeg" onerror="this.src='{{ site.baseurl }}/assets/img/default-avatar.png'">
-  <div class="person-name">Saikat Mondal</div>
-  <button class="topic-toggle" data-label="AI Safety · LLM Alignment" onclick="toggleTopic(this)">AI Safety · LLM Alignment ▾</button>
-  <div class="person-topic">I am Saikat Mondal, a PhD scholar in the School of Artificial Intelligence and Data Science. My research focuses on AI Safety, Large Language Model (LLM) alignment, and multilingual safety evaluation. Hobbies: Reading Bengali novels, listening to music, and exploring topics related to social sciences and politics.</div>
-  <div class="person-scopus"><a href="https://www.scopus.com/authid/detail.uri?authorId=SAIKAT_SCOPUS_ID" target="_blank">📄 Scopus</a></div>
-</div>
+  <div class="person-highlight">
+    <img src="{{ site.baseurl }}/assets/img/saikat.jpeg">
+    <div class="person-name">Saikat Mondal</div>
+    <button class="toggle-btn" onclick="toggleDesc(this)">Show Details ▾</button>
+    <div class="person-desc">
+      PhD scholar working in AI Safety and LLM Alignment. His research focuses on building reliable, safe and multilingual AI systems. He is also interested in social sciences and policy implications of AI.
+    </div>
+  </div>
 
 </div>
 
+<!-- MTECH -->
+<button class="section-btn" onclick="toggleSection('mtech')">M.Tech</button>
+<div id="mtech" class="section-content">
 
-# M.Tech
+  <div class="people-list">
+    <div>Rounak Sen (AR/VR)</div>
+    <div>Sikkireddy Lakshmi Shanmukha</div>
+    <div>Sharad Kumar Singh</div>
+  </div>
 
-### Current Students
-*Indian Institute of Technology Jodhpur, India*
-
-<div class="people-grid">
-
-<div class="person">
-  <img src="{{ site.baseurl }}/assets/img/default-avatar.png">
-  <div class="person-name">Rounak Sen (AR/VR)</div>
-</div>
-
-<div class="person">
-  <img src="{{ site.baseurl }}/assets/img/default-avatar.png">
-  <div class="person-name">Sikkireddy Lakshmi Shanmukha</div>
-</div>
-
-<div class="person">
-  <img src="{{ site.baseurl }}/assets/img/default-avatar.png">
-  <div class="person-name">Rohan Karna</div>
-</div>
-
-<div class="person">
-  <img src="{{ site.baseurl }}/assets/img/default-avatar.png">
-  <div class="person-name">Sharad Kumar Singh</div>
-</div>
-
-<div class="person">
-  <img src="{{ site.baseurl }}/assets/img/default-avatar.png">
-  <div class="person-name">Gautam Kumar Kushwaha</div>
-</div>
-
-<div class="person">
-  <img src="{{ site.baseurl }}/assets/img/default-avatar.png">
-  <div class="person-name">Akash Banik</div>
-</div>
-
-<div class="person">
-  <img src="{{ site.baseurl }}/assets/img/avni.png" onerror="this.src='{{ site.baseurl }}/assets/img/default-avatar.png'">
-  <div class="person-name">Avni Singh</div>
-  <button class="topic-toggle" data-label="Pulmonary Embolism AI" onclick="toggleTopic(this)">Pulmonary Embolism AI ▾</button>
-  <div class="person-topic">I am developing an AI framework that combines the reasoning power of Large Language Models (LLMs) with the factual accuracy of Knowledge Graphs to improve Pulmonary Embolism diagnosis. By anchoring generative AI in structured medical knowledge, I aim to eliminate 'black box' outcomes and provide clinicians with both highly accurate diagnostic insights and clear, evidence-based explanations for every decision.</div>
-  <div class="person-scopus"><a href="https://www.scopus.com/authid/detail.uri?authorId=AVNI_SCOPUS_ID" target="_blank">📄 Scopus</a></div>
-</div>
-
-<div class="person">
-  <img src="{{ site.baseurl }}/assets/img/default-avatar.png">
-  <div class="person-name">Deepak Kumar</div>
-</div>
-
-<div class="person">
-  <img src="{{ site.baseurl }}/assets/img/default-avatar.png">
-  <div class="person-name">Krothinyi Medeo</div>
-</div>
+  <div class="person-card">
+    <div class="person-card-title">Avni Singh</div>
+    <button class="toggle-btn" onclick="toggleDesc(this)">View Research ▾</button>
+    <div class="person-card-desc">
+      Working on AI-driven clinical decision support systems for Pulmonary Embolism detection. Her work integrates Large Language Models with structured medical knowledge graphs to enhance diagnostic accuracy, interpretability, and trust in healthcare AI systems.
+    </div>
+  </div>
 
 </div>
 
+<!-- MTECH EXEC -->
+<button class="section-btn" onclick="toggleSection('mtechexec')">M.Tech Executive</button>
+<div id="mtechexec" class="section-content">
 
-# M.Tech Executive
-
-### Current Students
-*Indian Institute of Technology Jodhpur, India*
-
-<div class="people-grid">
-
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Veekshan</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Kashmeera</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Shumbham</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Anshul</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Neha</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Netaji</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Nitin Jain</div></div>
+  <div class="people-list">
+    <div>Veekshan Arroju</div>
+    <div>Kashmeera</div>
+    <div>Shumbham Sharma</div>
+    <div>Anshul</div>
+    <div>Neha Prasad</div>
+    <div>Netaji</div>
+  </div>
 
 </div>
 
+<!-- BTECH -->
+<button class="section-btn" onclick="toggleSection('btech')">B.Tech – DC</button>
+<div id="btech" class="section-content">
 
-# B.Tech – DC
-
-### Current Students
-*Indian Institute of Technology Jodhpur, India*
-
-<div class="people-grid">
-
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Kolapkar Vipul Kishor</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Kartik Jain</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Shreehitha Talari</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Lagudu Pooja Rani</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Jangili Mahalaxmi</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Nallaiahgari Deadeepya</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">B Bharadhwaj Naik</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">D Ashish Rathnam</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Pundru Nehith Reddy</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Mihir Pancal</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Prajeet Katari</div></div>
-
-</div>
-
-
-### Previous Students
-
-<div class="people-grid">
-
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Iftikhar</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Mukkera</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Rutuja</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Rishabh</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Suvarn</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Sai Manav</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Priyansu Narendra Rajput</div></div>
-<div class="person"><img src="{{ site.baseurl }}/assets/img/default-avatar.png"><div class="person-name">Vaniya Ankit Sureshbhai</div></div>
+  <div class="people-list">
+    <div>Kolapkar Vipul Kishor</div>
+    <div>Kartik Jain</div>
+    <div>Shreehitha Talari</div>
+    <div>Lagudu Pooja Rani</div>
+    <div>Jangili Mahalaxmi</div>
+    <div>Nallaiahgari Deadeepya</div>
+    <div>B Bharadhwaj Naik</div>
+    <div>D Ashish Rathnam</div>
+    <div>Pundru Nehith Reddy</div>
+    <div>Mihir Pancal</div>
+    <div>Prajeet Katari</div>
+    <div>Iftikhar</div>
+    <div>Mukkera</div>
+    <div>Rutuja</div>
+    <div>Rishabh</div>
+    <div>Suvarn</div>
+    <div>Sai Manav</div>
+    <div>Priyansu Narendra Rajput</div>
+    <div>Vaniya Ankit Sureshbhai</div>
+  </div>
 
 </div>
