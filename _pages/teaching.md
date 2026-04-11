@@ -8,18 +8,33 @@ nav_order: 3
 ---
 
 <style>
+/* Hides the large page title but keeps it in the navigation menu */
+header.post-header, 
+.post-title, 
+h1.page-title {
+  display: none !important;
+}
+
 .teaching-item {
   margin-bottom: 12px;
   font-size: 18px;
+  color: inherit; /* Ensures text inherits theme color */
 }
 
 .teaching-date {
-  color: red;
+  color: #d32f2f; /* A clean, readable red for light mode */
   font-weight: 500;
 }
 
 .teaching-course {
   font-weight: bold;
+}
+
+/* Explicit Dark Mode Overrides */
+@media (prefers-color-scheme: dark) {
+  .teaching-date {
+    color: #ff8787; /* Softer, brighter red for dark backgrounds */
+  }
 }
 </style>
 
