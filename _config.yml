@@ -3,10 +3,10 @@
 # -----------------------------------------------------------------------------
 
  
-title: blank
-first_name: About
+title: Deeksha Varshney | ADHRI-NLP Lab    
+first_name: Deeksha                      
 middle_name: ""
-last_name: me
+last_name: Varshney
 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -52,7 +52,7 @@ footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: false
-bib_search: true
+bib_search: false
 
 max_width: 98%
 
@@ -84,6 +84,7 @@ blog_name: al-folio
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false
+news_limit: 10
 
 pagination:
   enabled: true
@@ -229,8 +230,8 @@ display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"]
 display_categories: ["external-services"]
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Varshney]                   
+  first_name: [Deeksha, D.]               
   style: apa
   locale: en
   source: /_bibliography/
