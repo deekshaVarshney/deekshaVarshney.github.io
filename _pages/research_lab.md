@@ -6,12 +6,12 @@ nav: true
 nav_order: 1
 ---
 
+{% assign research_projects = site.projects | where: "category", "research" %}
+
 <div class="projects">
-  {% if site.projects %}
-    {% for project in site.projects %}
+  {% if research_projects %}
+    {% for project in research_projects %}
       {% include projects.html %}
     {% endfor %}
   {% endif %}
-</div>    
-    
-  
+</div>
