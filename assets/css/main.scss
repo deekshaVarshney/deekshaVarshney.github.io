@@ -107,3 +107,17 @@ $max-content-width: {{ site.max_width }};
   transform: translateY(-3px);
   opacity: 0.8;
 }
+
+/* ============================
+   Smooth Scrolling for News Links
+============================ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+// Ensure the target publication has some padding so it doesn't get 
+// hidden behind the top navigation bar
+:target {
+  scroll-margin-top: 80px; 
+}
