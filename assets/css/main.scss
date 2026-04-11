@@ -123,3 +123,20 @@ html {
 :target {
   scroll-margin-top: 80px; 
 }
+
+
+
+/* ============================
+   Global Page Padding
+============================ */
+.container {
+  padding-left: 5rem !important;
+  padding-right: 5rem !important;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
