@@ -25,56 +25,50 @@ nav_order: 4
   padding:15px 0;
 }
 
-/* List */
-.people-list div{
-  margin:10px 0;
-  font-size:15px;
+/* Student Row */
+.person-row{
+  margin:12px 0;
 }
 
-/* DARK MODE SUPPORT */
-.person-desc, .person-card-desc{
-  display:none;
-  margin-top:8px;
-  font-size:14px;
-  max-width:500px;
-  line-height:1.5;
-  margin-left:auto;
-  margin-right:auto;
+.person-header{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
 }
 
-/* Light mode */
-body:not(.dark-mode) .person-desc,
-body:not(.dark-mode) .person-card-desc{
-  color:#333;
-  background:#f5f5f5;
-  padding:8px;
-  border-radius:8px;
+.person-name{
+  font-size:16px;
+  font-weight:500;
 }
 
-/* Dark mode */
-body.dark-mode .person-desc,
-body.dark-mode .person-card-desc{
-  color:#eee;
-  background:#2a2a2a;
-  padding:8px;
-  border-radius:8px;
-}
-
-/* Buttons */
+/* Toggle Button */
 .toggle-btn{
-  margin-top:5px;
-  font-size:13px;
+  font-size:12px;
   border:1px solid #aaa;
   border-radius:12px;
-  padding:4px 10px;
+  padding:3px 10px;
   background:none;
   cursor:pointer;
 }
 
-/* Saikat */
+/* Description (AUTO DARK/LIGHT SAFE) */
+.person-desc{
+  display:none;
+  margin-top:8px;
+  font-size:14px;
+  line-height:1.6;
+  padding:10px;
+  border-radius:8px;
+  background:rgba(120,120,120,0.15);
+  color:inherit;
+}
+
+/* Saikat Highlight */
 .person-highlight{
   text-align:center;
-  margin:20px 0;
+  margin:30px auto;
+  max-width:650px;
 }
 
 .person-highlight img{
@@ -85,19 +79,13 @@ body.dark-mode .person-card-desc{
   border:3px solid #eee;
 }
 
-.person-name{
-  margin-top:10px;
-  font-size:18px;
+.person-highlight .person-name{
+  font-size:20px;
   font-weight:600;
 }
 
-/* Avni card */
-.person-card{
-  border:1px solid #eee;
-  padding:12px;
-  border-radius:10px;
-  margin-top:10px;
-  background:#fafafa;
+.person-highlight .person-desc{
+  font-size:15px;
 }
 
 /* Mobile */
@@ -109,7 +97,6 @@ body.dark-mode .person-card-desc{
 
 <script>
 function toggleSection(id){
-  // close all sections first
   document.querySelectorAll('.section-content').forEach(sec=>{
     if(sec.id !== id) sec.style.display = "none";
   });
@@ -119,7 +106,7 @@ function toggleSection(id){
 }
 
 function toggleDesc(btn){
-  let desc = btn.nextElementSibling;
+  let desc = btn.parentElement.nextElementSibling;
   let isOpen = desc.style.display === "block";
   desc.style.display = isOpen ? "none" : "block";
   btn.textContent = isOpen ? "Research Area ▾" : "Hide ▴";
@@ -135,83 +122,46 @@ function toggleDesc(btn){
     <div class="person-name">Saikat Mondal</div>
     <button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button>
     <div class="person-desc">
-  Saikat Mandal is a Ph.D. Scholar at the School of AIDE, IIT Jodhpur. He began his Ph.D. in 2025. His research lies in the domain of AI safety, with a primary focus on building trustworthy, safe, and responsible AI systems. He works on analyzing model vulnerabilities and understanding model behaviors to improve reliability. His interests also include developing robust multilingual models to cater to the needs of regional languages and diverse user communities with a particular focus on Indian Languages.
+      Saikat Mondal is a Ph.D. Scholar at IIT Jodhpur. His research focuses on AI Safety, LLM alignment, and building trustworthy AI systems. He works on improving reliability, robustness, and multilingual capabilities of modern AI systems.
     </div>
   </div>
 
 </div>
 
-<!-- MTECH (MERGED) -->
+<!-- MTECH -->
 <button class="section-btn" onclick="toggleSection('mtech')">M.Tech</button>
 <div id="mtech" class="section-content">
 
-  <div class="people-list">
+  <!-- Students -->
+  <div class="person-row"><div class="person-header"><div class="person-name">Rounak Sen (AR/VR)</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
 
-    <div>
-      Rounak Sen (AR/VR)
-      <button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button>
-      <div class="person-desc">Content will be added soon.</div>
-    </div>
+  <div class="person-row"><div class="person-header"><div class="person-name">Sikkireddy Lakshmi Shanmukha</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
 
-    <div>
-      Sikkireddy Lakshmi Shanmukha
-      <button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button>
-      <div class="person-desc">Content will be added soon.</div>
-    </div>
+  <div class="person-row"><div class="person-header"><div class="person-name">Sharad Kumar Singh</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
 
-    <div>
-      Sharad Kumar Singh
-      <button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button>
-      <div class="person-desc">Content will be added soon.</div>
-    </div>
-
-    <!-- Avni -->
-    <div class="person-card">
+  <!-- Avni -->
+  <div class="person-row">
+    <div class="person-header">
       <div class="person-name">Avni Singh</div>
       <button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button>
-      <div class="person-card-desc">
-        Researching AI-driven clinical decision systems for Pulmonary Embolism detection by combining Large Language Models with medical knowledge graphs to improve accuracy, interpretability, and trust in healthcare AI.
-      </div>
     </div>
-
-    <!-- MTech Executive merged -->
-    <div>
-      Veekshan Arroju
-      <button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button>
-      <div class="person-desc">Content will be added soon.</div>
+    <div class="person-desc">
+      Researching AI-driven clinical decision systems for Pulmonary Embolism detection using LLMs and knowledge graphs to enhance interpretability, accuracy, and trust in healthcare AI.
     </div>
-
-    <div>
-      Kashmeera K S
-      <button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button>
-      <div class="person-desc">Content will be added soon.</div>
-    </div>
-
-    <div>
-      Shumbham Sharma
-      <button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button>
-      <div class="person-desc">Content will be added soon.</div>
-    </div>
-
-    <div>
-      Anshul Kumar
-      <button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button>
-      <div class="person-desc">Content will be added soon.</div>
-    </div>
-
-    <div>
-      Neha Prasad
-      <button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button>
-      <div class="person-desc">Content will be added soon.</div>
-    </div>
-
-    <div>
-      Kancharapu Netaji
-      <button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button>
-      <div class="person-desc">Content will be added soon.</div>
-    </div>
-
   </div>
+
+  <!-- MTech Executive merged -->
+  <div class="person-row"><div class="person-header"><div class="person-name">Veekshan</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
+
+  <div class="person-row"><div class="person-header"><div class="person-name">Kashmeera</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
+
+  <div class="person-row"><div class="person-header"><div class="person-name">Shumbham</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
+
+  <div class="person-row"><div class="person-header"><div class="person-name">Anshul</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
+
+  <div class="person-row"><div class="person-header"><div class="person-name">Neha</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
+
+  <div class="person-row"><div class="person-header"><div class="person-name">Netaji</div><button class="toggle-btn" onclick="toggleDesc(this)">Research Area ▾</button></div><div class="person-desc">Content will be added soon.</div></div>
 
 </div>
 
@@ -219,28 +169,24 @@ function toggleDesc(btn){
 <button class="section-btn" onclick="toggleSection('btech')">BTech</button>
 <div id="btech" class="section-content">
 
-  <div class="people-list">
-
-    <div>Kolapkar Vipul Kishor</div>
-    <div>Kartik Jain</div>
-    <div>Shreehitha Talari</div>
-    <div>Lagudu Pooja Rani</div>
-    <div>Jangili Mahalaxmi</div>
-    <div>Nallaiahgari Deadeepya</div>
-    <div>B Bharadhwaj Naik</div>
-    <div>D Ashish Rathnam</div>
-    <div>Pundru Nehith Reddy</div>
-    <div>Mihir Pancal</div>
-    <div>Prajeet Katari</div>
-    <div>Iftikhar</div>
-    <div>Mukkera</div>
-    <div>Rutuja</div>
-    <div>Rishabh</div>
-    <div>Suvarn</div>
-    <div>Sai Manav</div>
-    <div>Priyansu Narendra Rajput</div>
-    <div>Vaniya Ankit Sureshbhai</div>
-
-  </div>
+  <div class="person-row"><div class="person-name">Kolapkar Vipul Kishor</div></div>
+  <div class="person-row"><div class="person-name">Kartik Jain</div></div>
+  <div class="person-row"><div class="person-name">Shreehitha Talari</div></div>
+  <div class="person-row"><div class="person-name">Lagudu Pooja Rani</div></div>
+  <div class="person-row"><div class="person-name">Jangili Mahalaxmi</div></div>
+  <div class="person-row"><div class="person-name">Nallaiahgari Deadeepya</div></div>
+  <div class="person-row"><div class="person-name">B Bharadhwaj Naik</div></div>
+  <div class="person-row"><div class="person-name">D Ashish Rathnam</div></div>
+  <div class="person-row"><div class="person-name">Pundru Nehith Reddy</div></div>
+  <div class="person-row"><div class="person-name">Mihir Pancal</div></div>
+  <div class="person-row"><div class="person-name">Prajeet Katari</div></div>
+  <div class="person-row"><div class="person-name">Iftikhar</div></div>
+  <div class="person-row"><div class="person-name">Mukkera</div></div>
+  <div class="person-row"><div class="person-name">Rutuja</div></div>
+  <div class="person-row"><div class="person-name">Rishabh</div></div>
+  <div class="person-row"><div class="person-name">Suvarn</div></div>
+  <div class="person-row"><div class="person-name">Sai Manav</div></div>
+  <div class="person-row"><div class="person-name">Priyansu Narendra Rajput</div></div>
+  <div class="person-row"><div class="person-name">Vaniya Ankit Sureshbhai</div></div>
 
 </div>
