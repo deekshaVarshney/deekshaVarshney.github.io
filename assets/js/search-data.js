@@ -78,7 +78,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-deriving-strategic-market-insights-with-large-language-models-a-benchmark-for-forward-counterfactual-generation-has-been-accepted-at-emnlp-2025-k-ong-r-mao-d-varshney-p-p-liang-e-cambria-g-mengaldo",
           title: 'Our paper Deriving Strategic Market Insights with Large Language Models: A Benchmark for...',
           description: "",
-          section: "News",},{id: "news-our-work-concept-based-interpretability-for-toxicity-detection-is-now-available-on-arxiv-s-garg-d-singh-d-varshney-mamta",
+          section: "News",},{id: "news-our-work-concept-based-interpretability-for-toxicity-detection-is-now-available-on-arxiv-s-garg-d-singh-d-varshney-mamta-check-it-out-on-arxiv",
           title: 'Our work Concept-Based Interpretability for Toxicity Detection is now available on arXiv. (S....',
           description: "",
           section: "News",},{id: "news-our-work-protein-secondary-structure-prediction-using-3d-graphs-and-relation-aware-message-passing-transformers-is-now-available-on-arxiv-d-varshney-s-garg-s-tyagi-d-varshney-n-deep-a-ekbal",
