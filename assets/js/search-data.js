@@ -81,7 +81,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-work-concept-based-interpretability-for-toxicity-detection-is-now-available-on-arxiv-s-garg-d-singh-d-varshney-mamta-check-it-out-on-arxiv",
           title: 'Our work Concept-Based Interpretability for Toxicity Detection is now available on arXiv. (S....',
           description: "",
-          section: "News",},{id: "news-our-work-protein-secondary-structure-prediction-using-3d-graphs-and-relation-aware-message-passing-transformers-is-now-available-on-arxiv-d-varshney-s-garg-s-tyagi-d-varshney-n-deep-a-ekbal",
+          section: "News",},{id: "news-our-work-protein-secondary-structure-prediction-using-3d-graphs-and-relation-aware-message-passing-transformers-is-now-available-on-arxiv-d-varshney-s-garg-s-tyagi-d-varshney-n-deep-a-ekbal-check-it-out-on-arxiv",
           title: 'Our work Protein Secondary Structure Prediction Using 3D Graphs and Relation-Aware Message Passing...',
           description: "",
           section: "News",},{id: "pages-page-not-found",
