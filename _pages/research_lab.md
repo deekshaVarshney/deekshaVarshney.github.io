@@ -1,15 +1,19 @@
 ---
-layout: default
-permalink: /research_lab/
+layout: page
 title: Research lab
+permalink: /research_lab/
 nav: true
 nav_order: 1
+display_categories: [research, work, fun]
+horizontal: false
 ---
 
 <div class="projects">
-  {% if site.projects %}
-    {% for project in site.projects %}
-      {% include projects.html %}
+  {% assign sorted_projects = site.projects | sort: "importance" %}
+
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
     {% endfor %}
-  {% endif %}
+  </div>
 </div>
