@@ -6,6 +6,93 @@ nav: true
 nav_order: 8
 ---
 
+<style>
+/* Hides the large page title but keeps it in the navigation menu */
+header.post-header, 
+.post-title, 
+h1.page-title {
+  display: none !important;
+}
+
+.gallery-btn{
+  background:#007acc;
+  color:white;
+  border:none;
+  padding:12px 20px;
+  margin-top:20px;
+  font-size:18px;
+  border-radius:8px;
+  cursor:pointer;
+  width:auto;
+}
+
+.gallery-section{
+  display:none;
+  margin-top:25px;
+}
+
+.slideshow-container{
+  position:relative;
+  max-width:900px;
+  margin:auto;
+}
+
+.slide{
+  display:none;
+  text-align:center;
+}
+
+.gallery-image{
+  width:100%;
+  height:auto;
+  border-radius:12px;
+  object-fit:cover;
+}
+
+.gallery-caption{
+  text-align:center;
+  margin-top:12px;
+  font-size:1rem;
+  padding:0 10px;
+  line-height:1.5;
+}
+
+.prev,.next{
+  cursor:pointer;
+  position:absolute;
+  top:50%;
+  padding:12px;
+  color:white;
+  font-size:24px;
+  background:rgba(0,0,0,0.5);
+  border-radius:50%;
+  transform:translateY(-50%);
+  z-index:2;
+}
+
+.prev{ left:10px; }
+.next{ right:10px; }
+
+/* 🔥 MOBILE RESPONSIVE */
+@media (max-width:600px){
+  .gallery-btn{
+    width:100%;
+    font-size:16px;
+    padding:10px;
+  }
+  .slideshow-container{
+    max-width:100%;
+  }
+  .prev,.next{
+    font-size:18px;
+    padding:8px;
+  }
+  .gallery-caption{
+    font-size:0.9rem;
+  }
+}
+</style>
+
 <button class="gallery-btn" onclick="toggleSection('invited')">
 Invited Talks
 </button>
@@ -14,7 +101,6 @@ Invited Talks
 
 <div class="slideshow-container">
 
-<!-- 1st Image (NEW) -->
 <div class="slide invited">
 <img src="/assets/img/nlp_talk_1.jpeg" class="gallery-image">
 <p class="gallery-caption">
@@ -22,7 +108,6 @@ Delivered a tutorial on Generative AI for NLP at the Generative AI Workshop cond
 </p>
 </div>
 
-<!-- 2nd Image (EXISTING) -->
 <div class="slide invited">
 <img src="/assets/img/generative_ai_workshop_iitj.jpeg" class="gallery-image">
 <p class="gallery-caption">
@@ -30,7 +115,6 @@ Delivered a tutorial on Generative AI for NLP at the Generative AI Workshop cond
 </p>
 </div>
 
-<!-- 3rd Image (NEW GROUP PHOTO) -->
 <div class="slide invited">
 <img src="/assets/img/nlp_talk_2.jpeg" class="gallery-image">
 <p class="gallery-caption">
@@ -54,133 +138,34 @@ Content will be added soon.
 </p>
 </div>
 
-<style>
-
-.gallery-btn{
-background:#007acc;
-color:white;
-border:none;
-padding:12px 20px;
-margin-top:20px;
-font-size:18px;
-border-radius:8px;
-cursor:pointer;
-width:auto;
-}
-
-.gallery-section{
-display:none;
-margin-top:25px;
-}
-
-.slideshow-container{
-position:relative;
-max-width:900px;
-margin:auto;
-}
-
-.slide{
-display:none;
-text-align:center;
-}
-
-.gallery-image{
-width:100%;
-height:auto;
-border-radius:12px;
-object-fit:cover;
-}
-
-.gallery-caption{
-text-align:center;
-margin-top:12px;
-font-size:1rem;
-padding:0 10px;
-line-height:1.5;
-}
-
-.prev,.next{
-cursor:pointer;
-position:absolute;
-top:50%;
-padding:12px;
-color:white;
-font-size:24px;
-background:rgba(0,0,0,0.5);
-border-radius:50%;
-transform:translateY(-50%);
-z-index:2;
-}
-
-.prev{ left:10px; }
-.next{ right:10px; }
-
-/* 🔥 MOBILE RESPONSIVE */
-
-@media (max-width:600px){
-
-.gallery-btn{
-width:100%;
-font-size:16px;
-padding:10px;
-}
-
-.slideshow-container{
-max-width:100%;
-}
-
-.prev,.next{
-font-size:18px;
-padding:8px;
-}
-
-.gallery-caption{
-font-size:0.9rem;
-}
-
-}
-
-</style>
-
 <script>
-
 let slideIndex = {
-invited: 1
+  invited: 1
 };
 
 function toggleSection(id){
-
-let section = document.getElementById(id);
-
-if(section.style.display === "block"){
-section.style.display = "none";
-}else{
-section.style.display = "block";
-showSlides(slideIndex[id] || 1, id);
-}
-
+  let section = document.getElementById(id);
+  if(section.style.display === "block"){
+    section.style.display = "none";
+  }else{
+    section.style.display = "block";
+    showSlides(slideIndex[id] || 1, id);
+  }
 }
 
 function plusSlides(n, type){
-slideIndex[type] += n;
-showSlides(slideIndex[type], type);
+  slideIndex[type] += n;
+  showSlides(slideIndex[type], type);
 }
 
 function showSlides(n, type){
-
-let slides = document.getElementsByClassName("slide " + type);
-
-if(slides.length === 0) return;
-
-if(n > slides.length){ slideIndex[type] = 1 }
-if(n < 1){ slideIndex[type] = slides.length }
-
-for(let i = 0; i < slides.length; i++){
-slides[i].style.display = "none";
+  let slides = document.getElementsByClassName("slide " + type);
+  if(slides.length === 0) return;
+  if(n > slides.length){ slideIndex[type] = 1 }
+  if(n < 1){ slideIndex[type] = slides.length }
+  for(let i = 0; i < slides.length; i++){
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex[type] - 1].style.display = "block";
 }
-
-slides[slideIndex[type] - 1].style.display = "block";
-
-}
-
 </script>
