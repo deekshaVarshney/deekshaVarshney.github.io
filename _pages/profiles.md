@@ -7,6 +7,13 @@ nav_order: 4
 ---
 
 <style>
+  /* Hides the large page title but keeps it in the navigation menu */
+  header.post-header, 
+  .post-title, 
+  h1.page-title {
+    display: none !important;
+  }
+
   .section-btn{
     display:block;
     width:100%;
