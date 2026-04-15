@@ -18,15 +18,13 @@ profile:
       </p>
       <div class="profile-icons">
         <a href="mailto:deeksha@iitj.ac.in" style="color:black !important;"><i class="fas fa-envelope"></i></a>
-        <a href="https://deekshavarshney.github.io/cv/" style="color:black !important; font-weight:600;">
-          CV
-        </a>
+        <a href="https://deekshavarshney.github.io/cv/" style="color:black !important; font-weight:600;">CV</a>
         <a href="https://github.com/deekshaVarshney" style="color:black !important;"><i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/deeksha-varshney-5922b57b" style="color:black !important;"><i class="fab fa-linkedin"></i></a>
         <a href="https://scholar.google.com/citations?user=a6T1uIUAAAAJ" style="color:black !important;"><i class="fas fa-graduation-cap"></i></a>
         <a href="https://www.iitj.ac.in/People/List?dept=school-of-artificial-intelligence-data-science&c=ce26246f-00c9-4286-bb4c-7f023b4c5460">
-    <img src="/assets/img/iitjlogo.jpg" class="iitj-icon">
-  </a>
+          <img src="/assets/img/iitjlogo.jpg" class="iitj-icon">
+        </a>
       </div>
     </div>
 
