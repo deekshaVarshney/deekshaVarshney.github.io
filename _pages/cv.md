@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 6
-cv_pdf: cv.pdf 
+cv_pdf: cv_.pdf 
 description: ""
 toc:
   sidebar: left
