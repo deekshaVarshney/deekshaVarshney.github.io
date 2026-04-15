@@ -17,11 +17,11 @@ profile:
         IIT Jodhpur, India
       </p>
       <div class="profile-icons">
-        <a href="mailto:deeksha@iitj.ac.in"><i class="fas fa-envelope"></i></a>
-        <a href="/assets/pdf/example_pdf.pdf"><i class="fas fa-file-pdf"></i></a>
-        <a href="https://github.com/deekshaVarshney"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/deeksha-varshney-5922b57b"><i class="fab fa-linkedin"></i></a>
-        <a href="https://scholar.google.com/citations?user=a6T1uIUAAAAJ"><i class="fas fa-graduation-cap"></i></a>
+        <a href="mailto:deeksha@iitj.ac.in" style="color:black;"><i class="fas fa-envelope"></i></a>
+        <a href="/assets/pdf/example_pdf.pdf" style="color:black;"><i class="fas fa-file-pdf"></i></a>
+        <a href="https://github.com/deekshaVarshney" style="color:black;"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/deeksha-varshney-5922b57b" style="color:black;"><i class="fab fa-linkedin"></i></a>
+        <a href="https://scholar.google.com/citations?user=a6T1uIUAAAAJ" style="color:black;"><i class="fas fa-graduation-cap"></i></a>
         <a href="https://www.iitj.ac.in/People/List?dept=school-of-artificial-intelligence-data-science&c=ce26246f-00c9-4286-bb4c-7f023b4c5460">
           <img src="/assets/img/iitjlogo.jpg" class="iitj-icon">
         </a>
