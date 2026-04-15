@@ -69,4 +69,11 @@ Through my <a href="/research-lab" style="color:#1a73e8;"><b>Research Lab</b></a
 I am actively looking for motivated students interested in joining my group as Ph.D. scholars, Research associates and Interns at IIT Jodhpur. Please feel free to <a href="mailto:deeksha@iitj.ac.in" target="_blank" rel="noopener" style="color:#1a73e8;">email</a> me, with a statement of purpose.
 </p>
 
+<p style="color:red; font-weight:600;">
+<a href="https://erponline.iitj.ac.in/Admission/index" target="_blank" rel="noopener" style="color:#1a73e8;">
+Apply now (PhD)
+</a><br>
+Deadline: 20 April 2026
+</p>
+
 </div>
