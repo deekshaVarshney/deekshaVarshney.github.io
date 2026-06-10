@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-04'
+  last_updated: '2026-06-10'
 papers:
   a6T1uIUAAAAJ:0EnyYjriUFMC:
     citations: 4
@@ -10,11 +10,11 @@ papers:
     title: Multi-lingual event identification in disaster domain
     year: '2019'
   a6T1uIUAAAAJ:3fE2CSJIrl8C:
-    citations: 18
+    citations: 19
     title: 'Towards robust esg analysis against greenwashing risks: Aspect-action analysis with cross-category generalization'
     year: '2025'
   a6T1uIUAAAAJ:4TOpqqG69KYC:
-    citations: 0
+    citations: 1
     title: Concept-Based Interpretability for Toxicity Detection
     year: '2025'
   a6T1uIUAAAAJ:5nxA0vEk-isC:
@@ -22,7 +22,7 @@ papers:
     title: Sentiment analysis on climate change for sustainable investment
     year: '2024'
   a6T1uIUAAAAJ:8k81kl-MbHgC:
-    citations: 2
+    citations: 3
     title: 'Medprom: Bridging dialogue gaps in healthcare with knowledge-enhanced generative models'
     year: '2025'
   a6T1uIUAAAAJ:9yKSN-GCB0IC:
@@ -54,11 +54,11 @@ papers:
     title: 'Are my answers medically accurate? Exploiting medical knowledge graphs for medical question answering: A. Zafar et al.'
     year: '2024'
   a6T1uIUAAAAJ:W7OEmFMy1HYC:
-    citations: 11
+    citations: 12
     title: 'Cdialog: A multi-turn covid-19 conversation dataset for entity-aware dialog generation'
     year: '2022'
   a6T1uIUAAAAJ:WF5omc3nYNoC:
-    citations: 53
+    citations: 58
     title: Knowledge graph assisted end-to-end medical dialog generation
     year: '2023'
   a6T1uIUAAAAJ:YOwf2qJgpHMC:
@@ -94,7 +94,7 @@ papers:
     title: 'Yes, I am afraid of the sharks and also wild lions!: A multitask framework for enhancing dialogue generation via knowledge and emotion grounding'
     year: '2024'
   a6T1uIUAAAAJ:kNdYIx-mwKoC:
-    citations: 0
+    citations: 1
     title: 'EMPOWER-KARE: Deep Prompt Learning for Knowledge-aware Response Generation in Clinical Counseling and Legal Support Conversations'
     year: '2025'
   a6T1uIUAAAAJ:qjMakFHDy7sC:
@@ -106,7 +106,7 @@ papers:
     title: 'Indic-TunedLens: Interpreting Multilingual Models in Indian Languages'
     year: '2026'
   a6T1uIUAAAAJ:roLk4NBRz8UC:
-    citations: 28
+    citations: 29
     title: Emotion-and-knowledge grounded response generation in an open-domain dialogue setting
     year: '2024'
   a6T1uIUAAAAJ:zYLM7Y9cAGgC:
