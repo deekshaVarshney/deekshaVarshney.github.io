@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-12'
+  last_updated: '2026-06-29'
 papers:
   a6T1uIUAAAAJ:0EnyYjriUFMC:
     citations: 4
@@ -10,7 +10,7 @@ papers:
     title: Multi-lingual event identification in disaster domain
     year: '2019'
   a6T1uIUAAAAJ:3fE2CSJIrl8C:
-    citations: 19
+    citations: 20
     title: 'Towards robust esg analysis against greenwashing risks: Aspect-action analysis with cross-category generalization'
     year: '2025'
   a6T1uIUAAAAJ:4TOpqqG69KYC:
@@ -24,7 +24,7 @@ papers:
   a6T1uIUAAAAJ:8k81kl-MbHgC:
     citations: 3
     title: 'Medprom: Bridging dialogue gaps in healthcare with knowledge-enhanced generative models'
-    year: '2025'
+    year: '2026'
   a6T1uIUAAAAJ:9yKSN-GCB0IC:
     citations: 15
     title: Natural language generation using transformer network in an open-domain setting
@@ -62,7 +62,7 @@ papers:
     title: Knowledge graph assisted end-to-end medical dialog generation
     year: '2023'
   a6T1uIUAAAAJ:YOwf2qJgpHMC:
-    citations: 10
+    citations: 11
     title: 'ESGSenticNet: A neurosymbolic knowledge base for corporate sustainability analysis'
     year: '2025'
   a6T1uIUAAAAJ:YsMSGLbcyi4C:
@@ -90,7 +90,7 @@ papers:
     title: 'Multi-linguality helps: Event-argument extraction for disaster domain in cross-lingual and multi-lingual setting'
     year: '2019'
   a6T1uIUAAAAJ:eQOLeE2rZwMC:
-    citations: 44
+    citations: 46
     title: Knowledge grounded medical dialogue generation using augmented graphs
     year: '2023'
   a6T1uIUAAAAJ:hqOjcs7Dif8C:
@@ -114,6 +114,6 @@ papers:
     title: Emotion-and-knowledge grounded response generation in an open-domain dialogue setting
     year: '2024'
   a6T1uIUAAAAJ:zYLM7Y9cAGgC:
-    citations: 27
+    citations: 28
     title: Commonsense and Named Entity Aware Knowledge Grounded Dialogue Generation
     year: '2022'
