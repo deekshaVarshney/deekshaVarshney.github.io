@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-08'
+  last_updated: '2026-07-24'
 papers:
   a6T1uIUAAAAJ:0EnyYjriUFMC:
     citations: 4
@@ -50,7 +50,7 @@ papers:
     title: Context and knowledge enriched transformer framework for emotion recognition in conversations
     year: '2021'
   a6T1uIUAAAAJ:UebtZRa9Y70C:
-    citations: 7
+    citations: 6
     title: 'Are my answers medically accurate? Exploiting medical knowledge graphs for medical question answering: A. Zafar et al.'
     year: '2024'
   a6T1uIUAAAAJ:W7OEmFMy1HYC:
@@ -62,7 +62,7 @@ papers:
     title: Knowledge graph assisted end-to-end medical dialog generation
     year: '2023'
   a6T1uIUAAAAJ:YOwf2qJgpHMC:
-    citations: 11
+    citations: 12
     title: 'ESGSenticNet: A neurosymbolic knowledge base for corporate sustainability analysis'
     year: '2025'
   a6T1uIUAAAAJ:YsMSGLbcyi4C:
@@ -90,7 +90,7 @@ papers:
     title: 'Multi-linguality helps: Event-argument extraction for disaster domain in cross-lingual and multi-lingual setting'
     year: '2019'
   a6T1uIUAAAAJ:eQOLeE2rZwMC:
-    citations: 47
+    citations: 50
     title: Knowledge grounded medical dialogue generation using augmented graphs
     year: '2023'
   a6T1uIUAAAAJ:hqOjcs7Dif8C:
