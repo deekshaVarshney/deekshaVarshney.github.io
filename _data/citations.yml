@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-24'
+  last_updated: '2026-08-05'
 papers:
   a6T1uIUAAAAJ:0EnyYjriUFMC:
     citations: 4
@@ -10,7 +10,7 @@ papers:
     title: Multi-lingual event identification in disaster domain
     year: '2019'
   a6T1uIUAAAAJ:3fE2CSJIrl8C:
-    citations: 21
+    citations: 23
     title: 'Towards robust esg analysis against greenwashing risks: Aspect-action analysis with cross-category generalization'
     year: '2025'
   a6T1uIUAAAAJ:4TOpqqG69KYC:
@@ -35,14 +35,14 @@ papers:
     year: '2021'
   a6T1uIUAAAAJ:KlAtU1dfN6UC:
     citations: 3
-    title: 'ClimaEmpact: domain-aligned small language models and datasets for extreme weather analytics'
+    title: 'ClimaEmpact: Domain-aligned small language models and datasets for extreme weather analytics'
     year: '2025'
   a6T1uIUAAAAJ:LkGwnXOMwfcC:
-    citations: 1
+    citations: 2
     title: Aspect-level sentiment-controlled knowledge grounded multimodal dialog generation using generative models for reviews
     year: '2024'
   a6T1uIUAAAAJ:Se3iqnhoufwC:
-    citations: 9
+    citations: 8
     title: 'KIMedQA: towards building knowledge-enhanced medical QA models'
     year: '2024'
   a6T1uIUAAAAJ:UeHWp8X0CEIC:
@@ -50,7 +50,7 @@ papers:
     title: Context and knowledge enriched transformer framework for emotion recognition in conversations
     year: '2021'
   a6T1uIUAAAAJ:UebtZRa9Y70C:
-    citations: 6
+    citations: 7
     title: 'Are my answers medically accurate? Exploiting medical knowledge graphs for medical question answering: A. Zafar et al.'
     year: '2024'
   a6T1uIUAAAAJ:W7OEmFMy1HYC:
@@ -58,7 +58,7 @@ papers:
     title: 'Cdialog: A multi-turn covid-19 conversation dataset for entity-aware dialog generation'
     year: '2022'
   a6T1uIUAAAAJ:WF5omc3nYNoC:
-    citations: 59
+    citations: 60
     title: Knowledge graph assisted end-to-end medical dialog generation
     year: '2023'
   a6T1uIUAAAAJ:YOwf2qJgpHMC:
@@ -90,7 +90,7 @@ papers:
     title: 'Multi-linguality helps: Event-argument extraction for disaster domain in cross-lingual and multi-lingual setting'
     year: '2019'
   a6T1uIUAAAAJ:eQOLeE2rZwMC:
-    citations: 50
+    citations: 51
     title: Knowledge grounded medical dialogue generation using augmented graphs
     year: '2023'
   a6T1uIUAAAAJ:hqOjcs7Dif8C:
@@ -99,14 +99,14 @@ papers:
     year: '2024'
   a6T1uIUAAAAJ:kNdYIx-mwKoC:
     citations: 1
-    title: 'EMPOWER-KARE: Deep Prompt Learning for Knowledge-aware Response Generation in Clinical Counseling and Legal Support Conversations'
+    title: 'Empower-kare: Deep prompt learning for knowledge-aware response generation in clinical counseling and legal support conversations'
     year: '2025'
   a6T1uIUAAAAJ:qjMakFHDy7sC:
     citations: 20
     title: Modelling context emotions using multi-task learning for emotion controlled dialog generation
     year: '2021'
   a6T1uIUAAAAJ:qxL8FJ1GzNcC:
-    citations: 0
+    citations: 1
     title: 'Indic-TunedLens: Interpreting Multilingual Models in Indian Languages'
     year: '2026'
   a6T1uIUAAAAJ:roLk4NBRz8UC:
