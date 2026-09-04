@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-09-04'
 papers:
   a6T1uIUAAAAJ:0EnyYjriUFMC:
     citations: 4
@@ -10,7 +10,7 @@ papers:
     title: Multi-lingual event identification in disaster domain
     year: '2019'
   a6T1uIUAAAAJ:3fE2CSJIrl8C:
-    citations: 23
+    citations: 27
     title: 'Towards robust esg analysis against greenwashing risks: Aspect-action analysis with cross-category generalization'
     year: '2025'
   a6T1uIUAAAAJ:4TOpqqG69KYC:
@@ -54,11 +54,11 @@ papers:
     title: 'Are my answers medically accurate? Exploiting medical knowledge graphs for medical question answering: A. Zafar et al.'
     year: '2024'
   a6T1uIUAAAAJ:W7OEmFMy1HYC:
-    citations: 12
+    citations: 14
     title: 'Cdialog: A multi-turn covid-19 conversation dataset for entity-aware dialog generation'
     year: '2022'
   a6T1uIUAAAAJ:WF5omc3nYNoC:
-    citations: 60
+    citations: 63
     title: Knowledge graph assisted end-to-end medical dialog generation
     year: '2023'
   a6T1uIUAAAAJ:YOwf2qJgpHMC:
@@ -78,7 +78,7 @@ papers:
     title: Distraction-free Embeddings for Robust VQA
     year: '2023'
   a6T1uIUAAAAJ:_kc_bZDykSQC:
-    citations: 1
+    citations: 2
     title: Protein Secondary Structure Prediction Using 3D Graphs and Relation-Aware Message Passing Transformers
     year: '2025'
   a6T1uIUAAAAJ:aqlVkmm33-oC:
@@ -98,7 +98,7 @@ papers:
     title: 'Yes, I am afraid of the sharks and also wild lions!: A multitask framework for enhancing dialogue generation via knowledge and emotion grounding'
     year: '2024'
   a6T1uIUAAAAJ:kNdYIx-mwKoC:
-    citations: 1
+    citations: 2
     title: 'Empower-kare: Deep prompt learning for knowledge-aware response generation in clinical counseling and legal support conversations'
     year: '2025'
   a6T1uIUAAAAJ:qjMakFHDy7sC:
@@ -114,6 +114,6 @@ papers:
     title: Emotion-and-knowledge grounded response generation in an open-domain dialogue setting
     year: '2024'
   a6T1uIUAAAAJ:zYLM7Y9cAGgC:
-    citations: 28
+    citations: 29
     title: Commonsense and Named Entity Aware Knowledge Grounded Dialogue Generation
     year: '2022'
