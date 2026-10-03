@@ -73,20 +73,23 @@ h1.page-title {
 .prev{ left:10px; }
 .next{ right:10px; }
 
-/* 🔥 MOBILE RESPONSIVE */
+/* MOBILE RESPONSIVE */
 @media (max-width:600px){
   .gallery-btn{
     width:100%;
     font-size:16px;
     padding:10px;
   }
+
   .slideshow-container{
     max-width:100%;
   }
+
   .prev,.next{
     font-size:18px;
     padding:8px;
   }
+
   .gallery-caption{
     font-size:0.9rem;
   }
@@ -133,18 +136,31 @@ Conferences & Presentations
 </button>
 
 <div id="conf" class="gallery-section">
+
+<div class="slideshow-container">
+
+<div class="slide conf">
+<img src="/assets/img/acl.jpg" class="gallery-image">
 <p class="gallery-caption">
-Content will be added soon.
+Presented research at ACL.
 </p>
+</div>
+
+<a class="prev" onclick="plusSlides(-1,'conf')">❮</a>
+<a class="next" onclick="plusSlides(1,'conf')">❯</a>
+
+</div>
 </div>
 
 <script>
 let slideIndex = {
-  invited: 1
+  invited: 1,
+  conf: 1
 };
 
 function toggleSection(id){
   let section = document.getElementById(id);
+
   if(section.style.display === "block"){
     section.style.display = "none";
   }else{
@@ -160,12 +176,21 @@ function plusSlides(n, type){
 
 function showSlides(n, type){
   let slides = document.getElementsByClassName("slide " + type);
+
   if(slides.length === 0) return;
-  if(n > slides.length){ slideIndex[type] = 1 }
-  if(n < 1){ slideIndex[type] = slides.length }
+
+  if(n > slides.length){
+    slideIndex[type] = 1;
+  }
+
+  if(n < 1){
+    slideIndex[type] = slides.length;
+  }
+
   for(let i = 0; i < slides.length; i++){
     slides[i].style.display = "none";
   }
+
   slides[slideIndex[type] - 1].style.display = "block";
 }
 </script>
