@@ -63,10 +63,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-empower-kare-deep-prompt-learning-for-knowledge-aware-response-generation-in-clinical-counseling-and-legal-support-conversations-has-been-accepted-in-ieee-transactions-on-artificial-intelligence-p-priya-a-m-tripathi-d-varshney-m-firdaus-a-ekbal-check-it-out-on-ieee-xplore",
-          title: 'Our paper EMPOWER-KARE: Deep Prompt Learning for Knowledge-aware Response Generation in Clinical Counseling...',
-          description: "",
-          section: "News",},{id: "news-our-paper-deriving-strategic-market-insights-with-large-language-models-a-benchmark-for-forward-counterfactual-generation-has-been-accepted-at-emnlp-2025-k-ong-r-mao-d-varshney-p-p-liang-e-cambria-g-mengaldo-check-it-out-on-emnlp",
+            },},{id: "news-our-paper-deriving-strategic-market-insights-with-large-language-models-a-benchmark-for-forward-counterfactual-generation-has-been-accepted-at-emnlp-2025-k-ong-r-mao-d-varshney-p-p-liang-e-cambria-g-mengaldo-check-it-out-on-emnlp",
           title: 'Our paper Deriving Strategic Market Insights with Large Language Models: A Benchmark for...',
           description: "",
           section: "News",},{id: "news-our-work-concept-based-interpretability-for-toxicity-detection-is-now-available-on-arxiv-s-garg-d-singh-d-varshney-mamta-check-it-out-on-arxiv",
@@ -78,7 +75,10 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-indic-tunedlens-interpreting-multilingual-models-in-indian-languages-has-been-accepted-at-the-13th-workshop-on-nlp-for-similar-languages-varieties-and-dialects-in-rabat-morocco-m-panchal-d-varshney-mamta-a-ekbal-check-it-out-on-acl-anthology",
           title: 'Our paper Indic-TunedLens: Interpreting Multilingual Models in Indian Languages has been accepted at...',
           description: "",
-          section: "News",},{id: "news-our-paper-indicsafeeval-evaluating-persuasion-based-jailbreak-vulnerabilities-in-indic-languages-has-been-accepted-at-emnlp-2026-findings-d-varshney-et-al-check-it-out-on-arxiv",
+          section: "News",},{id: "news-our-paper-mlingualfc-evaluating-jailbreak-vulnerabilities-in-multilingual-vision-language-models-has-been-published-at-the-1st-workshop-on-multilinguality-in-the-era-of-large-language-models-mellm-2026-rishabh-makwana-deeksha-varshney-oana-cocarascu-check-it-out-on-acl-anthology",
+          title: 'Our paper MLingualFC: Evaluating Jailbreak Vulnerabilities in Multilingual Vision-Language Models has been published...',
+          description: "",
+          section: "News",},{id: "news-our-paper-indicsafeeval-evaluating-persuasion-based-jailbreak-vulnerabilities-in-indic-languages-has-been-accepted-at-emnlp-2026-findings-saikat-mondal-deeksha-varshney-oana-cocarascu-asif-ekbal-check-it-out-on-arxiv",
           title: 'Our paper IndicSafeEval: Evaluating Persuasion-Based Jailbreak Vulnerabilities in Indic Languages has been accepted...',
           description: "",
           section: "News",},{id: "pages-page-not-found",
