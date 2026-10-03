@@ -78,7 +78,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-indic-tunedlens-interpreting-multilingual-models-in-indian-languages-has-been-accepted-at-the-13th-workshop-on-nlp-for-similar-languages-varieties-and-dialects-in-rabat-morocco-m-panchal-d-varshney-mamta-a-ekbal-check-it-out-on-acl-anthology",
           title: 'Our paper Indic-TunedLens: Interpreting Multilingual Models in Indian Languages has been accepted at...',
           description: "",
-          section: "News",},{id: "news-our-paper-indicsafeeval-evaluating-persuasion-based-jailbreak-vulnerabilities-in-indic-languages-has-been-accepted-at-emnlp-2026-findings-saikat-mondal-deeksha-varshney-oana-cocarascu-asif-ekbal-check-it-out-on-arxiv",
+          section: "News",},{id: "news-our-paper-indicsafeeval-evaluating-persuasion-based-jailbreak-vulnerabilities-in-indic-languages-has-been-accepted-at-emnlp-2026-findings-d-varshney-et-al-check-it-out-on-arxiv",
           title: 'Our paper IndicSafeEval: Evaluating Persuasion-Based Jailbreak Vulnerabilities in Indic Languages has been accepted...',
           description: "",
           section: "News",},{id: "pages-page-not-found",
