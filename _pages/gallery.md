@@ -140,7 +140,7 @@ Conferences & Presentations
 <div class="slideshow-container">
 
 <div class="slide conf">
-<img src="/assets/img/acl.jpg" class="gallery-image">
+<img src="/assets/img/ACL.jpg" class="gallery-image">
 <p class="gallery-caption">
 Presented research at ACL.
 </p>
