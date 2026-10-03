@@ -142,7 +142,7 @@ Conferences & Presentations
 <div class="slide conf">
 <img src="/assets/img/ACL.jpg" class="gallery-image">
 <p class="gallery-caption">
-Presented research at ACL.
+Presented research at ACL 2026.
 </p>
 </div>
 
