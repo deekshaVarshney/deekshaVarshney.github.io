@@ -70,9 +70,9 @@ I am actively looking for motivated students interested in joining my group as P
 </p>
 
 <p style="color:red; font-weight:600;">
-<a href="https://erponline.iitj.ac.in/Admission/index" target="_blank" rel="noopener" style="color:#1a73e8;">
+<a href="[https://erponline.iitj.ac.in/Admission/index](https://iitj.ac.in/admission-postgraduate-programs/en/Rolling-advertisement-for-Admission-to-Interdisciplinary-and-Ph.D.-Programmes)" target="_blank" rel="noopener" style="color:#1a73e8;">
 Apply now (PhD)
-</a> : Deadline 20 April 2026
+</a> : Deadline 20 October 2026
 </p>
 
 </div>
