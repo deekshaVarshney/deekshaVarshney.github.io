@@ -66,7 +66,7 @@ Through my <a href="/research-lab" style="color:#1a73e8;"><b>Research Lab</b></a
 </p>
 
 <p style="color:red; font-weight:600;">
-I am actively looking for motivated students interested in joining my group as Ph.D. scholars, Research associates and Interns at IIT Jodhpur. Please feel free to <a href="mailto:deeksha@iitj.ac.in" target="_blank" rel="noopener" style="color:#1a73e8;">email</a> me, with a statement of purpose.
+I am actively looking for motivated students interested in joining my group as Ph.D. scholars at IIT Jodhpur. Currently I am not looking for Winter Interns. Only students who are interested in long term research internship are encouraged to apply. Please feel free to <a href="mailto:deeksha@iitj.ac.in" target="_blank" rel="noopener" style="color:#1a73e8;">email</a> me, with a statement of purpose.
 </p>
 
 <p style="color:red; font-weight:600;">
